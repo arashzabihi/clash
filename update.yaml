@@ -48,4 +48,4 @@ proxy-groups:
       - _UA_乌克兰
 
 rules:
- - MATCH,sshkit-generator
+ - MATCH,لیست سرورها
