@@ -42,9 +42,9 @@ proxies:
 
 proxy-groups:
   - name: sshkit-generator
-    type: select
-    #url: 'http://www.gstatic.com/generate_204'
-    #interval: 300
+    type: url-test
+    url: 'http://www.gstatic.com/generate_204'
+    interval: 300
     proxies:
       - _UA_乌克兰
       - mainssh.com     
