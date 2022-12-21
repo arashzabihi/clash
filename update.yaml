@@ -1,4 +1,4 @@
-name: "france"
+ name: "france"
  server: frdns.mainssh.xyz
  port: 443
  type: vmess
