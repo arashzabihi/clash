@@ -6,6 +6,6 @@ server: frdns.mainssh.xyz
 port: 443
 uuid: f7b0089a-d851-4377-9fad-de5541b7dd30
 alterId: 32
-cipher: none
+cipher: auto
 network: ws
 tls:  true
