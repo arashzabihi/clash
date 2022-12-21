@@ -48,7 +48,7 @@ proxy-groups:
     proxies:
       - _UA_乌克兰
       - mainssh.com
-      -4
+      
 
 rules:
  - MATCH,sshkit-generator
