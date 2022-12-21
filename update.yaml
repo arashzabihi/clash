@@ -47,8 +47,6 @@ proxy-groups:
     #interval: 300
     proxies:
       - _UA_乌克兰
-      - mainssh.com
-      
-
+      - mainssh.com     
 rules:
  - MATCH,sshkit-generator
