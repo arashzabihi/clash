@@ -4,8 +4,9 @@ proxies:
     type: vmess
     server: frdns.mainssh.xyz
     port: 443
+     alterId: 32
     uuid: f7b0089a-d851-4377-9fad-de5541b7dd30
-        alterId: 32
+       
    
    
   # ……
