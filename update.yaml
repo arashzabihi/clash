@@ -37,7 +37,7 @@ experimental:
   interface-name: en0
 
 proxies:
-  - {name: mainssh.com, server: frdns.mainssh.xyz, port: 443, type: vmess, uuid: f7b0089a-d851-4377-9fad-de5541b7dd30, sni: frdns.mainssh.xyz, alterId: 0, cipher: auto, tls: 1, skip-cert-verify: true, udp: true, network: ws, ws-opts: {path: /v2raydns, headers: {Host: frdns.mainssh.xyz}}}
+  - {name: france, server: frdns.mainssh.xyz, port: 443, type: vmess, uuid: f7b0089a-d851-4377-9fad-de5541b7dd30, sni: frdns.mainssh.xyz, alterId: 0, cipher: auto, tls: 1, skip-cert-verify: true, udp: true, network: ws, ws-opts: {path: /v2raydns, headers: {Host: frdns.mainssh.xyz}}}
 
 proxy-groups:
   - name: sshkit-generator
