@@ -36,25 +36,43 @@ experimental:
   interface-name: en0
 
 proxies:
+  #1
   - {name: USA 1, server: 45.80.111.169, port: 8880, type: vmess, uuid: e3dba91f-b31c-473a-8f17-92e1dedda38f, sni: c8w6stpcephkomzy.gongyiyun.cf, alterId: 0, cipher: auto, tls: , skip-cert-verify: true, udp: true, network: ws, ws-opts: {path: /, headers: {Host: c8w6stpcephkomzy.gongyiyun.cf}}}
+  #2
   - {name: USA 2, server: 45.80.111.169, port: 8880, type: vmess, uuid: e3dba91f-b31c-473a-8f17-92e1dedda38f, sni: c8w6stpcephkomzy.gongyiyun.cf, alterId: 0, cipher: auto, tls: , skip-cert-verify: true, udp: true, network: ws, ws-opts: {path: /, headers: {Host: c8w6stpcephkomzy.gongyiyun.cf}}}
+  #3
   - {name: France 1, server: frdns.mainssh.xyz, port: 443, type: vmess, uuid: f7b0089a-d851-4377-9fad-de5541b7dd30, sni: frdns.mainssh.xyz, alterId: 0, cipher: auto, tls: 1, skip-cert-verify: true, udp: true, network: ws, ws-opts: {path: /v2raydns, headers: {Host: frdns.mainssh.xyz}}}
-  
+  #4
   - {name: USA 3, server: 45.80.111.169, port: 8880, type: vmess, uuid: e3dba91f-b31c-473a-8f17-92e1dedda38f, sni: c8w6stpcephkomzy.gongyiyun.cf, alterId: 0, cipher: auto, tls: , skip-cert-verify: true, udp: true, network: ws, ws-opts: {path: /, headers: {Host: c8w6stpcephkomzy.gongyiyun.cf}}}
+  #5
   - {name: UK 1, server: gb1-1.openssl3.com, port: 60001, udp: true, type: trojan, password: tune7jerky7HAYRICK, sni: , skip-cert-verify: true}
+  #6
   - {name: Singapore 1, server: 172.67.34.78, port: 8880, type: vmess, uuid: a5c804aa-8a4d-4fd2-97a1-4f0cc1384953, sni: sg1021.hkaa0.tk, alterId: 0, cipher: auto, tls: , skip-cert-verify: true, udp: true, network: ws, ws-opts: {path: /hkaa0, headers: {Host: sg1021.hkaa0.tk}}}
+  #7
   - {name: Netherlands 1 , server: nl.gongyiyun.cf, port: 8080, type: vmess, uuid: e3dba91f-b31c-473a-8f17-92e1dedda38f, sni: nl.gongyiyun.cf, alterId: 0, cipher: auto, tls: , skip-cert-verify: true, udp: true, network: ws, ws-opts: {path: /, headers: {Host: nl.gongyiyun.cf}}}
+  #8
   - {name: Turkey 1, server: tr1.fun513.ga, port: 51102, type: vmess, uuid: da05afe6-3241-4941-bab7-ce3dc19c3d0c, sni: tr1.fun513.ga, alterId: 0, cipher: auto, tls: , skip-cert-verify: true, udp: true, network: ws, ws-opts: {path: /tr01, headers: {Host: tr1.fun513.ga}}}
+  #9
   - {name: USA 4, server: 45.80.111.169, port: 8880, type: vmess, uuid: e3dba91f-b31c-473a-8f17-92e1dedda38f, sni: c8w6stpcephkomzy.gongyiyun.cf, alterId: 0, cipher: auto, tls: , skip-cert-verify: true, udp: true, network: ws, ws-opts: {path: /, headers: {Host: c8w6stpcephkomzy.gongyiyun.cf}}}
+  #10
   - {name: USA 5, server: frdns.mainssh.xyz, port: 443, type: vmess, uuid: f7b0089a-d851-4377-9fad-de5541b7dd30, sni: frdns.mainssh.xyz, alterId: 0, cipher: auto, tls: 1, skip-cert-verify: true, udp: true, network: ws, ws-opts: {path: /v2raydns, headers: {Host: frdns.mainssh.xyz}}}
+  #11
   - {name: France 2, server: 195.154.77.190, port: 2082, type: vmess, uuid: 36fa45db-2d4a-4295-a1fe-223836989878, sni: 195.154.77.190, alterId: 0, cipher: auto, tls: , skip-cert-verify: true, udp: true, network: ws, ws-opts: {path: /pineapple, headers: {Host: 195.154.77.190}}}
+  #12
   - {name: China 1( Hong_Kong ), server: 198.41.208.118, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, sni: hk.sharecentre.online, alterId: 0, cipher: auto, tls: 1, skip-cert-verify: true, udp: true, network: ws, ws-opts: {path: /shirker, headers: {Host: hk.sharecentre.online}}}
+  #13
   - {name: Finland 1, server: 135.181.235.21, port: 34303, type: vmess, uuid: 1ce52047-ad8a-4ef3-cdcd-46ff29b262fb, sni: , alterId: 0, cipher: auto, tls: , skip-cert-verify: true, udp: true, network: ws, ws-opts: {path: /, headers: {Host: }}}
+  #14
   - {name: Germany 1, server: v143a.toddns.tk, port: 80, type: vmess, uuid: a25881f3-967f-3265-bc7f-9e66857b016b, sni: , alterId: 0, cipher: auto, tls: , skip-cert-verify: true, udp: true, network: ws, ws-opts: {path: /de143-dxddxxj, headers: {Host: }}}
+  #15
   - {name: USA 6, server: cacerts.digicert.com, port: 2053, type: vmess, uuid: 7b6a4977-f6e5-4716-9915-48d6e4b6440f, sni: cd.v2ray2333.tk, alterId: 0, cipher: auto, tls: 1, skip-cert-verify: true, udp: true, network: ws, ws-opts: {path: /10027, headers: {Host: cd.v2ray2333.tk}}}
+  #16
   - {name: Singapore 2, server: 54.254.30.59, port: 17801, type: vmess, uuid: 30297ab2-ceef-48ae-838f-9ca4bf625da8, sni: , alterId: 0, cipher: auto, tls: , skip-cert-verify: true, udp: true, network: ws, ws-opts: {path: /, headers: {Host: }}}
+  #17
   - {name: China 2( Hong_Kong ), server: 182.16.1.194, port: 80, type: vmess, uuid: 00a1da14-d55f-5f75-e346-79b985e1a723, sni: 182.16.1.194, alterId: 0, cipher: auto, tls: , skip-cert-verify: true, udp: true, network: ws, ws-opts: {path: /opt/video/images, headers: {Host: 182.16.1.194}}}
+  #18
   - {name:  China 3( Hong_Kong ), server: hrgdvpn.flycdnedc55.vip, port: 80, type: vmess, uuid: 00a1da14-d55f-5f75-e346-79b985e1a723, sni: , alterId: 32, cipher: auto, tls: , skip-cert-verify: true, udp: true, network: ws, ws-opts: {path: /opt/video/images, headers: {Host: }}}
+  #19
   - {name: China 4, server: 137.175.28.5, port: 17805, type: vmess, uuid: 30297ab2-ceef-48ae-838f-9ca4bf625da8, sni: , alterId: 0, cipher: auto, tls: , skip-cert-verify: true, udp: true, network: ws, ws-opts: {path: /, headers: {Host: }}}
 
 proxy-groups:
