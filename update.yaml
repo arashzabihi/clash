@@ -75,6 +75,7 @@ proxies:
   #20
   - {name: China 4, server: 137.175.28.5, port: 17805, type: vmess, uuid: 30297ab2-ceef-48ae-838f-9ca4bf625da8, sni: , alterId: 0, cipher: auto, tls: , skip-cert-verify: true, udp: true, network: ws}
   - {name: Japan 1, server: ty1-1.openssl3.com, port: 1443, udp: true, type: trojan, password: tune7jerky7HAYRICK, sni: , skip-cert-verify: true}
+  - {name: Japan 2, server: ty1-1.openssl3.com, port: 1443, udp: true, type: trojan, password: tune7jerky7HAYRICK, sni: , skip-cert-verify: true}
 
 proxy-groups:
   - name: Arash_Server's
@@ -102,6 +103,7 @@ proxy-groups:
       - China 3( Hong_Kong )
       - China 4
       - Japan 1
+      - Japan 2
 rules:
  
   - MATCH,Arash_Server's
