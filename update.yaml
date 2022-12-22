@@ -80,6 +80,8 @@ proxies:
   - {name: Japan 2, server: ty1-1.openssl3.com, port: 1443, udp: true, type: trojan, password: tune7jerky7HAYRICK, sni: , skip-cert-verify: true}
   #23
   - {name: Russia 1, server: eu-east-ruo.openssl3.com, port: 443, udp: true, type: trojan, password: 9KogHwaY7hVD, sni: , skip-cert-verify: true}
+ #24
+ - {name: South Korea 1, server: kr-s-1.fuckjdieng.uk, port: 50044, udp: true, type: trojan, password: 78e00319-92ef-41c5-a745-0367e9ee6f32, sni: , skip-cert-verify: true}
 
 proxy-groups:
   - name: Arash_Server's
@@ -109,6 +111,8 @@ proxy-groups:
       - Japan 1
       - Japan 2
       - Russia 1
+      - South Korea 1
+
 rules:
  
   - MATCH,Arash_Server's
