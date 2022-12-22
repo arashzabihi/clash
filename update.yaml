@@ -45,6 +45,7 @@ proxies:
   - {name: Singapore 1, server: 172.67.34.78, port: 8880, type: vmess, uuid: a5c804aa-8a4d-4fd2-97a1-4f0cc1384953, sni: sg1021.hkaa0.tk, alterId: 0, cipher: auto, tls: , skip-cert-verify: true, udp: true, network: ws, ws-opts: {path: /hkaa0, headers: {Host: sg1021.hkaa0.tk}}}
   - {name: Netherlands 1 , server: nl.gongyiyun.cf, port: 8080, type: vmess, uuid: e3dba91f-b31c-473a-8f17-92e1dedda38f, sni: nl.gongyiyun.cf, alterId: 0, cipher: auto, tls: , skip-cert-verify: true, udp: true, network: ws, ws-opts: {path: /, headers: {Host: nl.gongyiyun.cf}}}
   - {name: Turkey 1, server: tr1.fun513.ga, port: 51102, type: vmess, uuid: da05afe6-3241-4941-bab7-ce3dc19c3d0c, sni: tr1.fun513.ga, alterId: 0, cipher: auto, tls: , skip-cert-verify: true, udp: true, network: ws, ws-opts: {path: /tr01, headers: {Host: tr1.fun513.ga}}}
+  - {name: USA 4, server: 45.80.111.169, port: 8880, type: vmess, uuid: e3dba91f-b31c-473a-8f17-92e1dedda38f, sni: c8w6stpcephkomzy.gongyiyun.cf, alterId: 0, cipher: auto, tls: , skip-cert-verify: true, udp: true, network: ws, ws-opts: {path: /, headers: {Host: c8w6stpcephkomzy.gongyiyun.cf}}}
 
 proxy-groups:
   - name: Arash_Server's
@@ -60,6 +61,7 @@ proxy-groups:
       - Singapore 1
       - Netherlands 1
       - Turkey 1
+      -  USA 4
      
 rules:
  
