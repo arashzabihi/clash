@@ -52,6 +52,7 @@ proxies:
   - {name: Finland 1, server: 135.181.235.21, port: 34303, type: vmess, uuid: 1ce52047-ad8a-4ef3-cdcd-46ff29b262fb, sni: , alterId: 0, cipher: auto, tls: , skip-cert-verify: true, udp: true, network: ws, ws-opts: {path: /, headers: {Host: }}}
   - {name: Germany 1, server: v143a.toddns.tk, port: 80, type: vmess, uuid: a25881f3-967f-3265-bc7f-9e66857b016b, sni: , alterId: 0, cipher: auto, tls: , skip-cert-verify: true, udp: true, network: ws, ws-opts: {path: /de143-dxddxxj, headers: {Host: }}}
   - {name: USA 6, server: cacerts.digicert.com, port: 2053, type: vmess, uuid: 7b6a4977-f6e5-4716-9915-48d6e4b6440f, sni: cd.v2ray2333.tk, alterId: 0, cipher: auto, tls: 1, skip-cert-verify: true, udp: true, network: ws, ws-opts: {path: /10027, headers: {Host: cd.v2ray2333.tk}}}
+  - {name: Singapore 2, server: 54.254.30.59, port: 17801, type: vmess, uuid: 30297ab2-ceef-48ae-838f-9ca4bf625da8, sni: , alterId: 0, cipher: auto, tls: , skip-cert-verify: true, udp: true, network: ws, ws-opts: {path: /, headers: {Host: }}}
 
 proxy-groups:
   - name: Arash_Server's
@@ -74,6 +75,7 @@ proxy-groups:
       -  Finland 1
       - Germany 1
       - USA 6
+      - Singapore 2
 rules:
  
   - MATCH,Arash_Server's
