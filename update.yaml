@@ -50,6 +50,7 @@ proxies:
   - {name: France 2, server: 195.154.77.190, port: 2082, type: vmess, uuid: 36fa45db-2d4a-4295-a1fe-223836989878, sni: 195.154.77.190, alterId: 0, cipher: auto, tls: , skip-cert-verify: true, udp: true, network: ws, ws-opts: {path: /pineapple, headers: {Host: 195.154.77.190}}}
   - {name: China 1( Hong_Kong ), server: 198.41.208.118, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, sni: hk.sharecentre.online, alterId: 0, cipher: auto, tls: 1, skip-cert-verify: true, udp: true, network: ws, ws-opts: {path: /shirker, headers: {Host: hk.sharecentre.online}}}
   - {name: Finland 1, server: 135.181.235.21, port: 34303, type: vmess, uuid: 1ce52047-ad8a-4ef3-cdcd-46ff29b262fb, sni: , alterId: 0, cipher: auto, tls: , skip-cert-verify: true, udp: true, network: ws, ws-opts: {path: /, headers: {Host: }}}
+  - {name: Germany 1, server: v143a.toddns.tk, port: 80, type: vmess, uuid: a25881f3-967f-3265-bc7f-9e66857b016b, sni: , alterId: 0, cipher: auto, tls: , skip-cert-verify: true, udp: true, network: ws, ws-opts: {path: /de143-dxddxxj, headers: {Host: }}}
 
 proxy-groups:
   - name: Arash_Server's
@@ -70,6 +71,7 @@ proxy-groups:
       - France 2
       - China 1( Hong_Kong )
       -  Finland 1
+      - Germany 1
 rules:
  
   - MATCH,Arash_Server's
