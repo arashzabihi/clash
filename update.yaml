@@ -42,7 +42,7 @@ proxies:
 
 proxy-groups:
   - name: Arash_Server's
-    type: fallback
+    type: url-test
     url: 'http://www.gstatic.com/generate_204'
     interval: 300
     proxies:
