@@ -88,6 +88,8 @@ proxies:
   - {name: Russia 2, server: eu-east-ruo.openssl3.com, port: 443, udp: true, type: trojan, password: 9KogHwaY7hVD, sni: , skip-cert-verify: true}
   #27
   - {name: USA 8, server: 172.67.199.34, port: 2053, type: vmess, uuid: 8947fbe5-c1c7-4716-8564-2092ce776f92, sni: v2ray.wefuckgfw.ga, alterId: 0, cipher: auto, tls: 1, skip-cert-verify: true, udp: true, network: ws, ws-opts: {path: /DQsafRJn/, headers: {Host: v2ray.wefuckgfw.ga}}}
+  #28
+  - {name: USA 9, server: 198.41.208.172, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, sni: sg-gcore-2.sharecentre.online, alterId: 0, cipher: auto, tls: 1, skip-cert-verify: true, udp: true, network: ws, ws-opts: {path: /shirker, headers: {Host: sg-gcore-2.sharecentre.online}}}
 
 proxy-groups:
   - name: Arash_Server's
@@ -120,7 +122,8 @@ proxy-groups:
       - South Korea 1
       - USA 7
       - Russia 2
-      -  USA 8
+      - USA 8
+      - USA 9
 
 rules:
  
