@@ -48,6 +48,7 @@ proxy-groups:
     proxies:
       - USA 1
       - USA 2
+ proxy-groups:
   - name : France
        type: fallback
     url: 'http://www.gstatic.com/generate_204'
