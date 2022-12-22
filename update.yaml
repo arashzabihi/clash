@@ -49,7 +49,7 @@ proxy-groups:
       - USA 1
       - USA 2
  proxy-groups:
-  - name : France
+  - name: France
        type: fallback
     url: 'http://www.gstatic.com/generate_204'
     interval: 300
