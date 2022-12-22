@@ -77,7 +77,7 @@ proxies:
  #21
  - {name: Japan 1, server: ty1-1.openssl3.com, port: 1443, udp: true, type: trojan, password: tune7jerky7HAYRICK, sni: , skip-cert-verify: true}
   #22
-  - {name: Japan 2, server: ty1-1.openssl3.com, port: 1443, udp: true, type: trojan, password: tune7jerky7HAYRICK, sni: , skip-cert-verify: true}
+  - {name: Japan 2, server: ap-northeast-1.openssl3.com, port: 443, udp: true, type: trojan, password: tune7jerky7HAYRICK, sni: , skip-cert-verify: true}
   #23
   - {name: Russia 1, server: eu-east-ruo.openssl3.com, port: 443, udp: true, type: trojan, password: 9KogHwaY7hVD, sni: , skip-cert-verify: true}
  #24
