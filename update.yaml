@@ -42,7 +42,7 @@ proxies:
   
   - {name: USA 3, server: 45.80.111.169, port: 8880, type: vmess, uuid: e3dba91f-b31c-473a-8f17-92e1dedda38f, sni: c8w6stpcephkomzy.gongyiyun.cf, alterId: 0, cipher: auto, tls: , skip-cert-verify: true, udp: true, network: ws, ws-opts: {path: /, headers: {Host: c8w6stpcephkomzy.gongyiyun.cf}}}
   - {name: UK 1, server: gb1-1.openssl3.com, port: 60001, udp: true, type: trojan, password: tune7jerky7HAYRICK, sni: , skip-cert-verify: true}
-  - {name: Singapore, server: 172.67.34.78, port: 8880, type: vmess, uuid: a5c804aa-8a4d-4fd2-97a1-4f0cc1384953, sni: sg1021.hkaa0.tk, alterId: 0, cipher: auto, tls: , skip-cert-verify: true, udp: true, network: ws, ws-opts: {path: /hkaa0, headers: {Host: sg1021.hkaa0.tk}}}
+  - {name: Singapore 1, server: 172.67.34.78, port: 8880, type: vmess, uuid: a5c804aa-8a4d-4fd2-97a1-4f0cc1384953, sni: sg1021.hkaa0.tk, alterId: 0, cipher: auto, tls: , skip-cert-verify: true, udp: true, network: ws, ws-opts: {path: /hkaa0, headers: {Host: sg1021.hkaa0.tk}}}
 
 proxy-groups:
   - name: Arash_Server's
@@ -55,7 +55,7 @@ proxy-groups:
       - France 1
       - USA 3
       - UK 1
-      - Singapore
+      - Singapore 1
      
 rules:
  
