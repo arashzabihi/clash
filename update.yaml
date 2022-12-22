@@ -48,7 +48,7 @@ proxy-groups:
     proxies:
       - USA 1
       - USA 2 
-      #- France 1
+      - France 1
      
 rules:
  
