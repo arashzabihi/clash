@@ -54,6 +54,7 @@ proxies:
   - {name: USA 6, server: cacerts.digicert.com, port: 2053, type: vmess, uuid: 7b6a4977-f6e5-4716-9915-48d6e4b6440f, sni: cd.v2ray2333.tk, alterId: 0, cipher: auto, tls: 1, skip-cert-verify: true, udp: true, network: ws, ws-opts: {path: /10027, headers: {Host: cd.v2ray2333.tk}}}
   - {name: Singapore 2, server: 54.254.30.59, port: 17801, type: vmess, uuid: 30297ab2-ceef-48ae-838f-9ca4bf625da8, sni: , alterId: 0, cipher: auto, tls: , skip-cert-verify: true, udp: true, network: ws, ws-opts: {path: /, headers: {Host: }}}
   - {name: China 2( Hong_Kong ), server: 182.16.1.194, port: 80, type: vmess, uuid: 00a1da14-d55f-5f75-e346-79b985e1a723, sni: 182.16.1.194, alterId: 0, cipher: auto, tls: , skip-cert-verify: true, udp: true, network: ws, ws-opts: {path: /opt/video/images, headers: {Host: 182.16.1.194}}}
+  - {name:  China 3( Hong_Kong ), server: hrgdvpn.flycdnedc55.vip, port: 80, type: vmess, uuid: 00a1da14-d55f-5f75-e346-79b985e1a723, sni: , alterId: 32, cipher: auto, tls: , skip-cert-verify: true, udp: true, network: ws, ws-opts: {path: /opt/video/images, headers: {Host: }}}
 
 proxy-groups:
   - name: Arash_Server's
@@ -78,6 +79,7 @@ proxy-groups:
       - USA 6
       - Singapore 2
       - China 2( Hong_Kong )
+      - China 3( Hong_Kong )
 rules:
  
   - MATCH,Arash_Server's
