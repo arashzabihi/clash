@@ -41,24 +41,19 @@ proxies:
   - {name: USA 2, server: 45.80.111.169, port: 8880, type: vmess, uuid: e3dba91f-b31c-473a-8f17-92e1dedda38f, sni: c8w6stpcephkomzy.gongyiyun.cf, alterId: 0, cipher: auto, tls: , skip-cert-verify: true, udp: true, network: ws, ws-opts: {path: /, headers: {Host: c8w6stpcephkomzy.gongyiyun.cf}}}
 
 proxy-groups:
-  - name: sshkit-generator
+  - name: USA
     type: fallback
     url: 'http://www.gstatic.com/generate_204'
     interval: 300
     proxies:
       - USA 1
-      - France 1 
       - USA 2
+      - name : France
+       type: fallback
+    url: 'http://www.gstatic.com/generate_204'
+    interval: 300
+    proxies:
+     - France 1      
 rules:
-  - DOMAIN-SUFFIX,google.com,auto
-  - DOMAIN-KEYWORD,google,auto
-  - DOMAIN,google.com,auto
-  - DOMAIN-SUFFIX,ad.com,REJECT
-  - SRC-IP-CIDR,192.168.1.201/32,DIRECT
-  # optional param "no-resolve" for IP rules (GEOIP, IP-CIDR, IP-CIDR6)
-  - IP-CIDR,127.0.0.0/8,DIRECT
-  - GEOIP,CN,DIRECT
-  - DST-PORT,80,DIRECT
-  - SRC-PORT,7777,DIRECT
-  - RULE-SET,apple,REJECT # Premium only
-  - MATCH,auto
+ 
+  - MATCH,France,USA
