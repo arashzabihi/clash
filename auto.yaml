@@ -82,6 +82,8 @@ proxies:
   - {name: Russia 1, server: eu-east-ruo.openssl3.com, port: 443, udp: true, type: trojan, password: 9KogHwaY7hVD, sni: , skip-cert-verify: true}
   #24
   - {name: South Korea 1, server: kr-s-1.fuckjdieng.uk, port: 50044, udp: true, type: trojan, password: 78e00319-92ef-41c5-a745-0367e9ee6f32, sni: , skip-cert-verify: true}
+  #25
+  - {name: USA 7, server: vus3.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, sni: vus3.0bad.com, alterId: 0, cipher: auto, tls: 1, skip-cert-verify: true, udp: true, network: ws, ws-opts: {path: /chat, headers: {Host: vus3.0bad.com}}}
 
 proxy-groups:
   - name: Arash_Server's
@@ -112,6 +114,7 @@ proxy-groups:
       - Japan 2
       - Russia 1
       - South Korea 1
+      - USA 7
 
 rules:
  
