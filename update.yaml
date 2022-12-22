@@ -39,7 +39,10 @@ proxies:
   - {name: USA 1, server: 45.80.111.169, port: 8880, type: vmess, uuid: e3dba91f-b31c-473a-8f17-92e1dedda38f, sni: c8w6stpcephkomzy.gongyiyun.cf, alterId: 0, cipher: auto, tls: , skip-cert-verify: true, udp: true, network: ws, ws-opts: {path: /, headers: {Host: c8w6stpcephkomzy.gongyiyun.cf}}}
   - {name: USA 2, server: 45.80.111.169, port: 8880, type: vmess, uuid: e3dba91f-b31c-473a-8f17-92e1dedda38f, sni: c8w6stpcephkomzy.gongyiyun.cf, alterId: 0, cipher: auto, tls: , skip-cert-verify: true, udp: true, network: ws, ws-opts: {path: /, headers: {Host: c8w6stpcephkomzy.gongyiyun.cf}}}
   - {name: France 1, server: frdns.mainssh.xyz, port: 443, type: vmess, uuid: f7b0089a-d851-4377-9fad-de5541b7dd30, sni: frdns.mainssh.xyz, alterId: 0, cipher: auto, tls: 1, skip-cert-verify: true, udp: true, network: ws, ws-opts: {path: /v2raydns, headers: {Host: frdns.mainssh.xyz}}}
+  
   - {name: USA 3, server: 45.80.111.169, port: 8880, type: vmess, uuid: e3dba91f-b31c-473a-8f17-92e1dedda38f, sni: c8w6stpcephkomzy.gongyiyun.cf, alterId: 0, cipher: auto, tls: , skip-cert-verify: true, udp: true, network: ws, ws-opts: {path: /, headers: {Host: c8w6stpcephkomzy.gongyiyun.cf}}}
+  - {name: UK 1, server: gb1-1.openssl3.com, port: 60001, udp: true, type: trojan, password: tune7jerky7HAYRICK, sni: , skip-cert-verify: true}
+
 proxy-groups:
   - name: Arash_Server's
     type: url-test
@@ -50,6 +53,7 @@ proxy-groups:
       - USA 2 
       - France 1
       - USA 3
+      - UK 1
      
 rules:
  
