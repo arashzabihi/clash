@@ -41,7 +41,7 @@ proxies:
   - {name: France, server: frdns.mainssh.xyz, port: 443, type: vmess, uuid: f7b0089a-d851-4377-9fad-de5541b7dd30, sni: frdns.mainssh.xyz, alterId: 0, cipher: auto, tls: 1, skip-cert-verify: true, udp: true, network: ws, ws-opts: {path: /v2raydns, headers: {Host: frdns.mainssh.xyz}}}
 
 proxy-groups:
-  - name: sshkit-generator
+  - name: Arash-Server
     type: url-test
     url: 'http://www.gstatic.com/generate_204'
     interval: 300
@@ -49,4 +49,4 @@ proxy-groups:
       - _UA_乌克兰
       - France     
 rules:
- - MATCH,sshkit-generator
+ - MATCH,Arash-Server
