@@ -33,7 +33,7 @@ tun:
   dns-hijack:
     - tcp://108.137.44.39:53
 experimental:
-  interface-name: en0
+  #interface-name: en0
 - name: ser1
 proxies:
   #2
