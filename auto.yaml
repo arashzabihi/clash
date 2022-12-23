@@ -422,7 +422,6 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - USA 1
       - USA 2
       - France 1
       - USA 3
@@ -449,5 +448,11 @@ proxy-groups:
       - Russia 2
       - USA 8
       - USA 9
+       - name: Arash_Server's1
+    type: select
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    proxies:
+      - USA 1
 rules:
-  - MATCH,Arash_Server's
+  - MATCH,Arash_Server's,Arash_Server's1
