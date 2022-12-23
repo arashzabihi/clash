@@ -107,4 +107,4 @@ experimental:
     interval: 300
     proxies:
     - UK 1
-  MATCH,USA,UK
+
