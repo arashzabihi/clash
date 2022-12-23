@@ -417,7 +417,7 @@ proxies:
       headers:
         Host: frdns.mainssh.xyz
 proxy-groups:
-  - name: PROXY
+  - name: Arash_Server's
     type: select
     url: http://www.gstatic.com/generate_204
     interval: 300
