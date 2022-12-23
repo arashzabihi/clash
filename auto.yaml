@@ -133,6 +133,7 @@ proxies:
       - Russia 2
       - USA 8
       - USA 9
+      - name: serv2
       - France 3
 
 - DOMAIN-SUFFIX,dcblivedazn.akamaized.net,ser1
