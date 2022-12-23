@@ -127,7 +127,7 @@ proxy-groups:
       - USA 8
       - USA 9
       - France 3
-
+- name: 2
 rules:
  
   - MATCH,Arash_Server's
