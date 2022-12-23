@@ -34,6 +34,7 @@ tun:
     - tcp://108.137.44.39:53
 experimental:
   #interface-name: en0
+  #سرورها
 proxies:
 - name: SG1
   password: 6a5cb4b7-8dad-3077-b21c-6f47e8dfb9af
@@ -49,6 +50,7 @@ proxies:
   server: bit-moble.gatknqh.cn
   type: vmess
   alterId: '0'
+  #گروه  ها
   uuid: ab37de28-f2b3-4c03-a494-5138cacb32c4 
   proxy-groups:
   - name: Serv1
@@ -57,11 +59,11 @@ proxies:
     type: url-test
     url: 'http://www.gstatic.com/generate_204'
     interval: 300
-  - name: serv2
+  - name: Serv2
     proxies:
     - CN1
     type: url-test
     url: 'http://www.gstatic.com/generate_204'
     interval: 300
      
-  - MATCH,srv1,serv2
+  - MATCH,Serv1,Serv2
