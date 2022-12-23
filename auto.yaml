@@ -45,11 +45,16 @@ proxies:
   type: trojan
   udp: true
 - name: CN1
-  network: tcp
-  port: 12043
-  server: bit-moble.gatknqh.cn
+  network: ws
+  port: 443
+  server: vjp1.0bad.com
+  tls: true
   type: vmess
-- alterId: '0'
+  uuid: 927094d3-d678-4763-8591-e240d0bcae87
+  ws-opts:
+    path: /chat
+  alterId: '0'
+  cipher: auto
   #گروه  ها
   uuid: ab37de28-f2b3-4c03-a494-5138cacb32c4 
   proxy-groups:
