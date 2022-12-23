@@ -56,8 +56,7 @@ proxies:
   alterId: '0'
   cipher: auto
   #گروه  ها
-  uuid: ab37de28-f2b3-4c03-a494-5138cacb32c4 
-  proxy-groups:
+   proxy-groups:
   - name: Serv1
     proxies:
     - SG1
