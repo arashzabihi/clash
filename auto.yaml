@@ -453,6 +453,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - DIRECT
       - USA 1
 rules:
   - MATCH,Arash_Server's,Arash_Server's1
