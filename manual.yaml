@@ -93,6 +93,8 @@ proxies:
   - {name: France 3, server: 51.195.41.134, port: 80, type: vmess, uuid: 9fcb95d6-e7ce-4e9d-a7ce-8575de31d392, sni: , alterId: 0, cipher: auto, tls: , skip-cert-verify: true, udp: true, network: ws}
   #29
   - {name: France 4, server: 51.38.82.132, port: 80, type: vmess, uuid: aca76f27-cda3-47f7-af79-7873034fd3bc, sni: , alterId: 0, cipher: auto, tls: , skip-cert-verify: true, udp: true, network: ws}
+  #30
+  - {name: USA 7, server: v12a.toddns.tk, port: 80, type: vmess, uuid: a25881f3-967f-3265-bc7f-9e66857b016b, sni: , alterId: 0, cipher: auto, tls: , skip-cert-verify: true, udp: true, network: ws, ws-opts: {path: /nl-unlimitxxx, headers: {Host: }}}
 
 proxy-groups:
   - name: Arash_Server's
@@ -128,6 +130,7 @@ proxy-groups:
       - Germany 2
       - France 3
       - France 4
+      - USA 7
 
 rules:
  
