@@ -107,8 +107,8 @@ proxies:
   - {name: Singapore 5, server: 15.235.147.186,  port: 80,    type: vmess, network: ws,  uuid: 6fea1649-425b-4092-bf53-29792152c925}
   - name: Arash_Server's
     type: select
-    #url: 'http://www.gstatic.com/generate_204'
-    #interval: 300
+    url: 'http://www.gstatic.com/generate_204'
+    interval: 300
     proxies:
       - USA 1
       - USA 2 
