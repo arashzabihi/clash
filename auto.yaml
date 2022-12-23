@@ -446,8 +446,7 @@ proxy-groups:
       - South Korea 1
       - USA 7
       - Russia 2
-      - USA 8
-      
+      - USA 8   
   - name: A2
     type: select
     url: http://www.gstatic.com/generate_204
