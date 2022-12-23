@@ -34,104 +34,27 @@ tun:
     - tcp://108.137.44.39:53
 experimental:
   #interface-name: en0
-- name: ser1
 proxies:
-  #2
-  - {name: USA 1, server: 45.80.111.169, port: 8880, type: vmess, uuid: e3dba91f-b31c-473a-8f17-92e1dedda38f, sni: c8w6stpcephkomzy.gongyiyun.cf, alterId: 0, cipher: auto, tls: , skip-cert-verify: true, udp: true, network: ws, ws-opts: {path: /, headers: {Host: c8w6stpcephkomzy.gongyiyun.cf}}}
-  #3
-  - {name: USA 2, server: 45.80.111.169, port: 8880, type: vmess, uuid: e3dba91f-b31c-473a-8f17-92e1dedda38f, sni: c8w6stpcephkomzy.gongyiyun.cf, alterId: 0, cipher: auto, tls: , skip-cert-verify: true, udp: true, network: ws, ws-opts: {path: /, headers: {Host: c8w6stpcephkomzy.gongyiyun.cf}}}
-  #4
-  - {name: France 1, server: frdns.mainssh.xyz, port: 443, type: vmess, uuid: f7b0089a-d851-4377-9fad-de5541b7dd30, sni: frdns.mainssh.xyz, alterId: 0, cipher: auto, tls: 1, skip-cert-verify: true, udp: true, network: ws, ws-opts: {path: /v2raydns, headers: {Host: frdns.mainssh.xyz}}}
-  #5
-  - {name: USA 3, server: 45.80.111.169, port: 8880, type: vmess, uuid: e3dba91f-b31c-473a-8f17-92e1dedda38f, sni: c8w6stpcephkomzy.gongyiyun.cf, alterId: 0, cipher: auto, tls: , skip-cert-verify: true, udp: true, network: ws, ws-opts: {path: /, headers: {Host: c8w6stpcephkomzy.gongyiyun.cf}}}
-  #6
-  - {name: UK 1, server: gb1-1.openssl3.com, port: 60001, udp: true, type: trojan, password: tune7jerky7HAYRICK, sni: , skip-cert-verify: true}
-  #7
-  - {name: Singapore 1, server: 172.67.34.78, port: 8880, type: vmess, uuid: a5c804aa-8a4d-4fd2-97a1-4f0cc1384953, sni: sg1021.hkaa0.tk, alterId: 0, cipher: auto, tls: , skip-cert-verify: true, udp: true, network: ws, ws-opts: {path: /hkaa0, headers: {Host: sg1021.hkaa0.tk}}}
-  #8
-  - {name: Netherlands 1 , server: nl.gongyiyun.cf, port: 8080, type: vmess, uuid: e3dba91f-b31c-473a-8f17-92e1dedda38f, sni: nl.gongyiyun.cf, alterId: 0, cipher: auto, tls: , skip-cert-verify: true, udp: true, network: ws, ws-opts: {path: /, headers: {Host: nl.gongyiyun.cf}}}
-  #9
-  - {name: Turkey 1, server: tr1.fun513.ga, port: 51102, type: vmess, uuid: da05afe6-3241-4941-bab7-ce3dc19c3d0c, sni: tr1.fun513.ga, alterId: 0, cipher: auto, tls: , skip-cert-verify: true, udp: true, network: ws, ws-opts: {path: /tr01, headers: {Host: tr1.fun513.ga}}}
-  #10
-  - {name: USA 4, server: 45.80.111.169, port: 8880, type: vmess, uuid: e3dba91f-b31c-473a-8f17-92e1dedda38f, sni: c8w6stpcephkomzy.gongyiyun.cf, alterId: 0, cipher: auto, tls: , skip-cert-verify: true, udp: true, network: ws, ws-opts: {path: /, headers: {Host: c8w6stpcephkomzy.gongyiyun.cf}}}
-  #11
-  - {name: USA 5, server: frdns.mainssh.xyz, port: 443, type: vmess, uuid: f7b0089a-d851-4377-9fad-de5541b7dd30, sni: frdns.mainssh.xyz, alterId: 0, cipher: auto, tls: 1, skip-cert-verify: true, udp: true, network: ws, ws-opts: {path: /v2raydns, headers: {Host: frdns.mainssh.xyz}}}
-  #12
-  - {name: France 2, server: 195.154.77.190, port: 2082, type: vmess, uuid: 36fa45db-2d4a-4295-a1fe-223836989878, sni: 195.154.77.190, alterId: 0, cipher: auto, tls: , skip-cert-verify: true, udp: true, network: ws, ws-opts: {path: /pineapple, headers: {Host: 195.154.77.190}}}
-  #13
-  - {name: China 1( Hong_Kong ), server: 198.41.208.118, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, sni: hk.sharecentre.online, alterId: 0, cipher: auto, tls: 1, skip-cert-verify: true, udp: true, network: ws, ws-opts: {path: /shirker, headers: {Host: hk.sharecentre.online}}}
-  #14
-  - {name: Finland 1, server: 135.181.235.21, port: 34303, type: vmess, uuid: 1ce52047-ad8a-4ef3-cdcd-46ff29b262fb, sni: , alterId: 0, cipher: auto, tls: , skip-cert-verify: true, udp: true, network: ws}
-  - name: ser2
- #15
-  - {name: Germany 1, server: v143a.toddns.tk, port: 80, type: vmess, uuid: a25881f3-967f-3265-bc7f-9e66857b016b, sni: , alterId: 0, cipher: auto, tls: , skip-cert-verify: true, udp: true, network: ws}
-  #16
-  - {name: USA 6, server: cacerts.digicert.com, port: 2053, type: vmess, uuid: 7b6a4977-f6e5-4716-9915-48d6e4b6440f, sni: cd.v2ray2333.tk, alterId: 0, cipher: auto, tls: 1, skip-cert-verify: true, udp: true, network: ws, ws-opts: {path: /10027, headers: {Host: cd.v2ray2333.tk}}}
-  #17
-  - {name: Singapore 2, server: 54.254.30.59, port: 17801, type: vmess, uuid: 30297ab2-ceef-48ae-838f-9ca4bf625da8, sni: , alterId: 0, cipher: auto, tls: , skip-cert-verify: true, udp: true, network: ws}
-  #18
-  - {name: China 2( Hong_Kong ), server: 182.16.1.194, port: 80, type: vmess, uuid: 00a1da14-d55f-5f75-e346-79b985e1a723, sni: 182.16.1.194, alterId: 0, cipher: auto, tls: , skip-cert-verify: true, udp: true, network: ws, ws-opts: {path: /opt/video/images, headers: {Host: 182.16.1.194}}}
-  #19
-  - {name:  China 3( Hong_Kong ), server: hrgdvpn.flycdnedc55.vip, port: 80, type: vmess, uuid: 00a1da14-d55f-5f75-e346-79b985e1a723, sni: , alterId: 32, cipher: auto, tls: , skip-cert-verify: true, udp: true, network: ws}
-  #20
-  - {name: China 4, server: 137.175.28.5, port: 17805, type: vmess, uuid: 30297ab2-ceef-48ae-838f-9ca4bf625da8, sni: , alterId: 0, cipher: auto, tls: , skip-cert-verify: true, udp: true, network: ws}
-  #21
-  - {name: Japan 1, server: ty1-1.openssl3.com, port: 1443, udp: true, type: trojan, password: tune7jerky7HAYRICK, sni: , skip-cert-verify: true}
-  #22
-  - {name: Japan 2, server: ap-northeast-1.openssl3.com, port: 443, udp: true, type: trojan, password: tune7jerky7HAYRICK, sni: , skip-cert-verify: true}
-  #23
-  - {name: Russia 1, server: eu-east-ruo.openssl3.com, port: 443, udp: true, type: trojan, password: 9KogHwaY7hVD, sni: , skip-cert-verify: true}
-  #24
-  - {name: South Korea 1, server: kr-s-1.fuckjdieng.uk, port: 50044, udp: true, type: trojan, password: 78e00319-92ef-41c5-a745-0367e9ee6f32, sni: , skip-cert-verify: true}
-  #25
-  - {name: USA 7, server: vus3.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, sni: vus3.0bad.com, alterId: 0, cipher: auto, tls: 1, skip-cert-verify: true, udp: true, network: ws, ws-opts: {path: /chat, headers: {Host: vus3.0bad.com}}}
-  #26
-  - {name: Russia 2, server: eu-east-ruo.openssl3.com, port: 443, udp: true, type: trojan, password: 9KogHwaY7hVD, sni: , skip-cert-verify: true}
-  #27
-  - {name: USA 8, server: 172.67.199.34, port: 2053, type: vmess, uuid: 8947fbe5-c1c7-4716-8564-2092ce776f92, sni: v2ray.wefuckgfw.ga, alterId: 0, cipher: auto, tls: 1, skip-cert-verify: true, udp: true, network: ws, ws-opts: {path: /DQsafRJn/, headers: {Host: v2ray.wefuckgfw.ga}}}
-  #28
-  - {name: USA 9, server: 198.41.208.172, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, sni: sg-gcore-2.sharecentre.online, alterId: 0, cipher: auto, tls: 1, skip-cert-verify: true, udp: true, network: ws, ws-opts: {path: /shirker, headers: {Host: sg-gcore-2.sharecentre.online}}}
-  #29
-  - {name: France 3, server: frdns.mainssh.xyz, port: 443, type: vmess, uuid: 021e4550-7a7d-4759-9897-b3c853c84bc2, sni: frdns.mainssh.xyz, alterId: 0, cipher: auto, tls: 1, skip-cert-verify: true, udp: true, network: ws, ws-opts: {path: /v2raydns, headers: {Host: frdns.mainssh.xyz}}}
-  #30
-  - {name: JP-A,  password: '18844' , port: 443,  server: zxcvbn@tk-tr-4.cats22.net,  skip-cert-verify: true,  type: trojan,  udp: true }
-proxy-groups:
--  name: Arash_Server's
-    type: url-test
-    url: 'http://www.gstatic.com/generate_204'
-    interval: 300
+- name: SG1
+  obfs: tls1.2_ticket_auth
+  password: 3g0dHlKME
+  port: 32001
+  protocol: origin
+  server: sg-am3.eqsunshine.com
+  type: ssr
+  alterId: '0'
+  cipher: auto }
+- name: CN1
+  network: tcp
+  port: 12043
+  server: bit-moble.gatknqh.cn
+  type: vmess
+  uuid: ab37de28-f2b3-4c03-a494-5138cacb32c4 
+  proxy-groups:
+  - name: Serv1
     proxies:
-      - USA 1
-      - USA 2 
-      - France 1
-      - USA 3
-      - UK 1
-      - Singapore 1
-      - Netherlands 1
-      - Turkey 1
-      - USA 4
-      - USA 5
-      - France 2
-      - China 1( Hong_Kong )
-      - Finland 1
-      - Germany 1
-      - USA 6
-      - Singapore 2
-      - China 2( Hong_Kong )
-      - China 3( Hong_Kong )
-      - China 4
-      - Japan 1
-      - Japan 2
-      - Russia 1
-      - South Korea 1
-      - USA 7
-      - Russia 2
-      - USA 8
-      - USA 9 
+    - SG1
+    
   - name: serv2
-      - France 3
-      - JP-A
-- DOMAIN-SUFFIX,dcblivedazn.akamaized.net,ser1
-rules:
- 
-  - MATCH,Arash_Server's
+    proxies:
+    - CN1
