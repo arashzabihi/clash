@@ -93,15 +93,10 @@ proxies:
   - {name: USA 9, server: 198.41.208.172, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, sni: sg-gcore-2.sharecentre.online, alterId: 0, cipher: auto, tls: 1, skip-cert-verify: true, udp: true, network: ws, ws-opts: {path: /shirker, headers: {Host: sg-gcore-2.sharecentre.online}}}
   #29
   - {name: France 3, server: frdns.mainssh.xyz, port: 443, type: vmess, uuid: 021e4550-7a7d-4759-9897-b3c853c84bc2, sni: frdns.mainssh.xyz, alterId: 0, cipher: auto, tls: 1, skip-cert-verify: true, udp: true, network: ws, ws-opts: {path: /v2raydns, headers: {Host: frdns.mainssh.xyz}}}
-- name: 🇯🇵_JP_日本_1_0@0
-  password: '18844'
-  port: 443
-  server: zxcvbn@tk-tr-4.cats22.net
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-  proxy-groups:
-  - name: Arash_Server's
+  #30
+  - {name: JP-A,  password: '18844' , port: 443,  server: zxcvbn@tk-tr-4.cats22.net,  skip-cert-verify: true,  type: trojan,  udp: true }
+proxy-groups:
+-  name: Arash_Server's
     type: url-test
     url: 'http://www.gstatic.com/generate_204'
     interval: 300
@@ -132,10 +127,10 @@ proxies:
       - USA 7
       - Russia 2
       - USA 8
-      - USA 9
-      - name: serv2
+      - USA 9 
+  - name: serv2
       - France 3
-
+      - JP-A
 - DOMAIN-SUFFIX,dcblivedazn.akamaized.net,ser1
 rules:
  
