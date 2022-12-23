@@ -35,7 +35,7 @@ tun:
     - tcp://108.137.44.39:53
 experimental:
   interface-name: en0
-  proxies:
+proxies:
   - name: USA 1
     server: 45.80.111.169
     port: 8880
