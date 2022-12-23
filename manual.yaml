@@ -88,13 +88,15 @@ proxies:
   #26
   - {name: South Korea 3, server: kr1.api-aws.com, port: 443, udp: true, type: trojan, password: 1988268c-a841-42f2-acac-7a8c0c7e78e5, sni: , skip-cert-verify: true}
   #27
-  - {name: Germany 2, server: resonance-vpn.net, port: 443, type: vmess, uuid: 3bfc99c0-a816-4286-813c-6731a1ba8c78, sni: resonance-vpn.net, alterId: 0, cipher: auto, tls: 1, skip-cert-verify: true, udp: true, network: ws, ws-opts: {path: /in-vpn-majanist-vws, headers: {Host: resonance-vpn.net}}}
+  - {name: Germany 2, server: resonance-vpn.net, port: 443, type: vmess, uuid: 3bfc99c0-a816-4286-813c-6731a1ba8c78, sni: resonance-vpn.net, alterId: 0, cipher: auto, tls: 1, skip-cert-verify: true, udp: true, network: ws}
   #28
   - {name: France 3, server: 51.195.41.134, port: 80, type: vmess, uuid: 9fcb95d6-e7ce-4e9d-a7ce-8575de31d392, sni: , alterId: 0, cipher: auto, tls: , skip-cert-verify: true, udp: true, network: ws}
   #29
   - {name: France 4, server: 51.38.82.132, port: 80, type: vmess, uuid: aca76f27-cda3-47f7-af79-7873034fd3bc, sni: , alterId: 0, cipher: auto, tls: , skip-cert-verify: true, udp: true, network: ws}
   #30
   - {name: USA 7, server: v12a.toddns.tk, port: 80, type: vmess, uuid: a25881f3-967f-3265-bc7f-9e66857b016b, sni: , alterId: 0, cipher: auto, tls: , skip-cert-verify: true, udp: true, network: ws}
+  #31
+  - {name: Singapore 3 , server: 129.150.44.64, port: 46075, type: vmess, uuid: da257e73-f02b-45ab-9916-7baf154c47a3, sni: 129.150.44.64, alterId: 0, cipher: auto, tls: , skip-cert-verify: true, udp: true, network: ws, ws-opts: {path: /jhndsmlanj11223, headers: {Host: 129.150.44.64}}}
 
 proxy-groups:
   - name: Arash_Server's
@@ -131,6 +133,7 @@ proxy-groups:
       - France 3
       - France 4
       - USA 7
+      - Singapore 3
 
 rules:
  
