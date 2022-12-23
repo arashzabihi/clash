@@ -126,8 +126,13 @@ proxy-groups:
       - Russia 2
       - USA 8
       - USA 9
+      
+  - name: 2
+   type: url-test
+    url: 'http://www.gstatic.com/generate_204'
+    interval: 300
+    proxies:
       - France 3
-      - name: 2
 rules:
  
   - MATCH,Arash_Server's
