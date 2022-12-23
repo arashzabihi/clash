@@ -457,4 +457,4 @@ proxy-groups:
       - USA 1
       - USA 9
 rules:
-  - MATCH,Arash_Server's,Arash_Server's1
+  - MATCH,Arash_Server's,A2
