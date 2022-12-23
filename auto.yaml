@@ -93,7 +93,7 @@ proxies:
   #29
   - {name: France 3, server: frdns.mainssh.xyz, port: 443, type: vmess, uuid: 021e4550-7a7d-4759-9897-b3c853c84bc2, sni: frdns.mainssh.xyz, alterId: 0, cipher: auto, tls: 1, skip-cert-verify: true, udp: true, network: ws, ws-opts: {path: /v2raydns, headers: {Host: frdns.mainssh.xyz}}}
 proxy-groups:
-  - name: Arash_Server's
+   name: Arash_Server's
     type: url-test
     url: 'http://www.gstatic.com/generate_204'
     interval: 300
@@ -126,7 +126,7 @@ proxy-groups:
       - USA 8
       - USA 9
       proxy-groups:
-  - name: 2
+   name: 2
    type: select
     url: 'http://www.gstatic.com/generate_204'
     interval: 300
