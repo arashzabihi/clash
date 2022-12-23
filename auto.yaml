@@ -111,5 +111,5 @@ experimental:
     proxies:
     - UK 1
     - UK 2
-   rules:
+    rules:
     - MATCH,proxy-groups
