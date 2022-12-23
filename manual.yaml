@@ -104,7 +104,7 @@ proxies:
   #35
   - {name: UK 2 , server: 198.244.232.39, port: 2096, type: vmess, uuid: df46384b-1ad5-40a6-812e-48d60fb80283, sni: , alterId: 0, cipher: auto, tls: , skip-cert-verify: true, udp: true, network: ws}
   #36
-  #- {name: Singapore 5, server: 15.235.147.186,  port: 80,    type: vmess, network: ws,  uuid: 6fea1649-425b-4092-bf53-29792152c925}
+  - {name: Singapore 5, server: 15.235.147.186,  port: 80,    type: vmess, network: ws,  uuid: 6fea1649-425b-4092-bf53-29792152c925}
   - name: Arash_Server's
     type: select
     #url: 'http://www.gstatic.com/generate_204'
@@ -144,7 +144,7 @@ proxies:
       - USA 8
       - Singapore 4
       - UK 2
-      #- Singapore 5
+      - Singapore 5
 
 rules:
  
