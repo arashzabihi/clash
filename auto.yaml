@@ -43,7 +43,7 @@ proxies:
   server: sg-am3.eqsunshine.com
   type: ssr
   alterId: '0'
-  cipher: auto }
+  cipher: auto 
 - name: CN1
   network: tcp
   port: 12043
