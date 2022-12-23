@@ -49,7 +49,7 @@ proxies:
   port: 12043
   server: bit-moble.gatknqh.cn
   type: vmess
-  alterId: '0'
+- alterId: '0'
   #گروه  ها
   uuid: ab37de28-f2b3-4c03-a494-5138cacb32c4 
   proxy-groups:
