@@ -54,7 +54,14 @@ proxies:
   - name: Serv1
     proxies:
     - SG1
-    
+    type: url-test
+    url: 'http://www.gstatic.com/generate_204'
+    interval: 300
   - name: serv2
     proxies:
     - CN1
+    type: url-test
+    url: 'http://www.gstatic.com/generate_204'
+    interval: 300
+     
+  - MATCH,srv1,serv2
