@@ -111,7 +111,7 @@ proxies:
   port: 2333
   protocol: auth_sha1_v4
   server: 94.76.193.218
-  type: ssr
+  type: ssr}
   - name: Arash_Server's
     type: select
     url: 'http://www.gstatic.com/generate_204'
