@@ -102,10 +102,8 @@ proxies:
   #34
   - {name: Singapore 4, server: 129.150.44.64, port: 46075, type: vmess, uuid: da257e73-f02b-45ab-9916-7baf154c47a3, sni: 129.150.44.64, alterId: 0, cipher: auto, tls: , skip-cert-verify: true, udp: true, network: ws, ws-opts: {path: /jhndsmlanj11223, headers: {Host: 129.150.44.64}}}
   #35
-  - {name: France 5 , server: 51.77.158.169, port: 2096, type: vmess, uuid: c92fd902-b5d3-4208-bb48-630b1c7babea, sni: , alterId: 0, cipher: auto, tls: , skip-cert-verify: true, udp: true, network: ws}
-  #36
   - {name: UK 2 , server: 198.244.232.39, port: 2096, type: vmess, uuid: df46384b-1ad5-40a6-812e-48d60fb80283, sni: , alterId: 0, cipher: auto, tls: , skip-cert-verify: true, udp: true, network: ws}
-  #37
+  #36
   #- {name: Singapore 5, server: 15.235.147.186,  port: 80,    type: vmess, network: ws,  uuid: 6fea1649-425b-4092-bf53-29792152c925}
   - name: Arash_Server's
     type: select
@@ -145,7 +143,6 @@ proxies:
       - Netherland 2
       - USA 8
       - Singapore 4
-      - France 5
       - UK 2
       #- Singapore 5
 
