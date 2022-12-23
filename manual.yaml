@@ -99,6 +99,8 @@ proxies:
   - {name: Singapore 3 , server: 129.150.44.64, port: 46075, type: vmess, uuid: da257e73-f02b-45ab-9916-7baf154c47a3, sni: 129.150.44.64, alterId: 0, cipher: auto, tls: , skip-cert-verify: true, udp: true, network: ws, ws-opts: {path: /jhndsmlanj11223, headers: {Host: 129.150.44.64}}}
   #32
   - {name: Netherland 2, server: v12a.toddns.tk, port: 80, type: vmess, uuid: a25881f3-967f-3265-bc7f-9e66857b016b, sni: , alterId: 0, cipher: auto, tls: , skip-cert-verify: true, udp: true, network: ws, ws-opts: {path: /nl-unlimitxxx, headers: {Host: }}}
+  #33
+  - {name: USA 8, server: 157.230.36.235, port: 80, type: vmess, uuid: b484d576-b3e3-4ac5-b108-88a300dfe7e3, sni: 157.230.36.235, alterId: 0, cipher: auto, tls: , skip-cert-verify: true, udp: true, network: ws, ws-opts: {path: /graphql, headers: {Host: 157.230.36.235}}}
 
 proxy-groups:
   - name: Arash_Server's
@@ -137,6 +139,7 @@ proxy-groups:
       - USA 7
       - Singapore 3
       - Netherland 2
+      - USA 8
 
 rules:
  
