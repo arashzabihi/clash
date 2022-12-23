@@ -51,10 +51,6 @@ proxies:
   tls: true
   type: vmess
   uuid: 927094d3-d678-4763-8591-e240d0bcae87
-  ws-opts:
-    path: /chat
-  alterId: '0'
-  cipher: auto
   #گروه  ها
    proxy-groups:
   - name: Serv1
