@@ -94,7 +94,7 @@ proxies:
   #29
   - {name: France 4, server: 51.38.82.132, port: 80, type: vmess, uuid: aca76f27-cda3-47f7-af79-7873034fd3bc, sni: , alterId: 0, cipher: auto, tls: , skip-cert-verify: true, udp: true, network: ws}
   #30
-  - {name: USA 7, server: v12a.toddns.tk, port: 80, type: vmess, uuid: a25881f3-967f-3265-bc7f-9e66857b016b, sni: , alterId: 0, cipher: auto, tls: , skip-cert-verify: true, udp: true, network: ws, ws-opts: {path: /nl-unlimitxxx, headers: {Host: }}}
+  - {name: USA 7, server: v12a.toddns.tk, port: 80, type: vmess, uuid: a25881f3-967f-3265-bc7f-9e66857b016b, sni: , alterId: 0, cipher: auto, tls: , skip-cert-verify: true, udp: true, network: ws}
 
 proxy-groups:
   - name: Arash_Server's
