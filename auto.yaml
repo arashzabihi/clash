@@ -92,7 +92,6 @@ proxies:
   - {name: USA 9, server: 198.41.208.172, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, sni: sg-gcore-2.sharecentre.online, alterId: 0, cipher: auto, tls: 1, skip-cert-verify: true, udp: true, network: ws, ws-opts: {path: /shirker, headers: {Host: sg-gcore-2.sharecentre.online}}}
   #29
   - {name: France 3, server: frdns.mainssh.xyz, port: 443, type: vmess, uuid: 021e4550-7a7d-4759-9897-b3c853c84bc2, sni: frdns.mainssh.xyz, alterId: 0, cipher: auto, tls: 1, skip-cert-verify: true, udp: true, network: ws, ws-opts: {path: /v2raydns, headers: {Host: frdns.mainssh.xyz}}}
-
 proxy-groups:
   - name: Arash_Server's
     type: url-test
