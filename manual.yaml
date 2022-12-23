@@ -89,8 +89,8 @@ proxies:
   - {name: South Korea 3, server: kr1.api-aws.com, port: 443, udp: true, type: trojan, password: 1988268c-a841-42f2-acac-7a8c0c7e78e5, sni: , skip-cert-verify: true}
   #27
   - {name: Germany 2, server: resonance-vpn.net, port: 443, type: vmess, uuid: 3bfc99c0-a816-4286-813c-6731a1ba8c78, sni: resonance-vpn.net, alterId: 0, cipher: auto, tls: 1, skip-cert-verify: true, udp: true, network: ws, ws-opts: {path: /in-vpn-majanist-vws, headers: {Host: resonance-vpn.net}}}
- #28
-  - {name: 🇫🇷FR_26, server: 51.195.41.134, port: 80, type: vmess, uuid: 9fcb95d6-e7ce-4e9d-a7ce-8575de31d392, sni: , alterId: 0, cipher: auto, tls: , skip-cert-verify: true, udp: true, network: ws}
+  #28
+  - {name: France 3, server: 51.195.41.134, port: 80, type: vmess, uuid: 9fcb95d6-e7ce-4e9d-a7ce-8575de31d392, sni: , alterId: 0, cipher: auto, tls: , skip-cert-verify: true, udp: true, network: ws}
 proxy-groups:
   - name: Arash_Server's
     type: select
@@ -123,7 +123,7 @@ proxy-groups:
       - South Korea 2
       - South Korea 3
       - Germany 2
-      - france 3
+      - France 3
 
 rules:
  
