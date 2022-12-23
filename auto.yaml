@@ -36,13 +36,13 @@ experimental:
   #interface-name: en0
 proxies:
 - name: SG1
-  obfs: tls1.2_ticket_auth
-  password: 3g0dHlKME
-  port: 32001
-  protocol: origin
-  server: sg-am3.eqsunshine.com
-  type: ssr
-  alterId: '0'
+  password: 6a5cb4b7-8dad-3077-b21c-6f47e8dfb9af
+  port: 20011
+  server: iplc.xiaohouzi.club
+  skip-cert-verify: true
+  sni: supaz012.xiaohouzi.club
+  type: trojan
+  udp: true
 - name: CN1
   network: tcp
   port: 12043
