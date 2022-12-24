@@ -457,7 +457,7 @@ proxy-groups:
       - Russia 2
       - USA 8   
       - USA 9
-      -  France 3
+      - France 3
       - Singapore 3
   #انتخاب دستی
   - name: تست_اتصال_نت
