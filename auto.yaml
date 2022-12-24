@@ -456,7 +456,7 @@ proxy-groups:
       - USA 1
       - USA 9
 rules:
-  - MATCH,Arash_Server's
+  - MATCH,Arash_Server's,Manual
   - DOMAIN-SUFFIX,google.com,Arash_Server's
   - DOMAIN-KEYWORD,google,Arash_Server's
   - DOMAIN,google.com,Arash_Server's
