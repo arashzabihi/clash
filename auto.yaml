@@ -397,9 +397,9 @@ proxies:
     udp: true
     network: ws
     ws-opts:
-      path: /shirker
-      headers:
-        Host: sg-gcore-2.sharecentre.online
+    path: /shirker
+    headers:
+    Host: sg-gcore-2.sharecentre.online
   - name: France 3
     server: frdns.mainssh.xyz
     port: 443
@@ -413,10 +413,10 @@ proxies:
     udp: true
     network: ws
     ws-opts:
-      path: /v2raydns
-      headers:
-        Host: frdns.mainssh.xyz
-    - name: 🇸🇬_SG_新加坡_1_0@5
+    path: /v2raydns
+    headers:
+    Host: frdns.mainssh.xyz
+  - name: Singapore 3
       network: ws
       port: 80
       server: 15.235.147.186
