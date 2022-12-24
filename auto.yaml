@@ -422,6 +422,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - USA 1
       - USA 2
       - France 1
       - USA 3
@@ -447,14 +448,16 @@ proxy-groups:
       - USA 7
       - Russia 2
       - USA 8   
-  - name: Manual
-    type: select
-    url: http://www.gstatic.com/generate_204
-    interval: 300
-    proxies:
-      - DIRECT
-      - USA 1
       - USA 9
+  #انتخاب دستی
+  #- name: Manual
+    #type: select
+    #url: http://www.gstatic.com/generate_204
+    #interval: 300
+    #proxies:
+      #- DIRECT
+      
+      
 rules:
   - MATCH,Arash_Server's,Manual
   - DOMAIN-SUFFIX,google.com,Arash_Server's
