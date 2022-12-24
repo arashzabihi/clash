@@ -534,7 +534,7 @@ proxy-groups:
   - ♻️ Load_Balancing
   - ♻️ failover
   - ♻️ Manual_Selection
- - name: 🌏 Iran's_Media
+- name: 🌏 Iran's_Media
   type: url-test
   url: https://captive.v2ex.co/generate_204
   interval: 300
