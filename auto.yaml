@@ -452,7 +452,7 @@ proxy-groups:
   #انتخاب دستی
   - name: تست_اتصال_نت
     type: select
-    url: http://www.gstatic.com/generate_204
+    url: https://www.digikala.com/
     interval: 300
     proxies:
       - DIRECT
