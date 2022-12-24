@@ -416,9 +416,9 @@ proxies:
     type: vmess
     network: ws
     uuid: b484d576-b3e3-4ac5-b108-88a300dfe7e3
-    alterId: '0'
+    alterId: "0"
     cipher: auto
-    ws-opts:
+    ws-opts: null
     headers:
       host: 157.230.36.235
     path: /graphql
