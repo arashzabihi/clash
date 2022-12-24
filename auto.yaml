@@ -430,21 +430,8 @@ proxies:
     ws-opts:
     path: /
     alterId: '0'
-    cipher: auto     
-proxy-groups:
-- name: 🔰 Node_Selection
-  type: select
-  proxies:
-  - ♻️ Auto_Selection
-  - ♻️ Load_Balancing
-  - ♻️ failover
-  - ♻️ Manual_Selection
-  - 🎯 Global_Internet
-- name: ♻️ Manual_Selection
-  type: select
-  url: https://captive.v2ex.co/generate_204
-  interval: 300
-  proxies: &id001
+    cipher: auto  
+     proxies: &id001
       - USA 1
       - USA 2
       - France 1
@@ -475,7 +462,20 @@ proxy-groups:
       - Singapore 3
       - Singapore 4
       - Germany 2
-- name: ♻️ Auto_Selection
+proxy-groups:
+- name: 🔰 Node_Selection
+  type: select
+  proxies:
+  - ♻️ Auto_Selection
+  - ♻️ Load_Balancing
+  - ♻️ failover
+  - ♻️ Manual_Selection
+  - 🎯 Global_Internet
+- name: ♻️ Manual_Selection
+  type: select
+  url: https://captive.v2ex.co/generate_204
+  interval: 300
+ - name: ♻️ Auto_Selection
   type: url-test
   url: https://captive.v2ex.co/generate_204
   interval: 300
