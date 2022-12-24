@@ -539,7 +539,7 @@ proxy-groups:
   url: https://captive.v2ex.co/generate_204
   interval: 300
   proxies:
-   - 🔰 Node_Selection
+  - 🔰 Node_Selection
   - ♻️ Auto_Selection
   - ♻️ Load_Balancing
   - ♻️ failover
