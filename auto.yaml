@@ -463,7 +463,9 @@ proxies:
    path: /5QNROSRV
 proxy-groups:
 - name: 🔰 Node_Selection
-  type: select
+  type: url-test
+  url: https://captive.v2ex.co/generate_204
+  interval: 300
   proxies:
   - ♻️ Auto_Selection
   - ♻️ Load_Balancing
