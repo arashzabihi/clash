@@ -459,7 +459,7 @@ proxy-groups:
       
       
 rules:
-  - MATCH,Arash_Server's,Manual
+  - MATCH,Arash_Server's
   - DOMAIN-SUFFIX,google.com,Arash_Server's
   - DOMAIN-KEYWORD,google,Arash_Server's
   - DOMAIN,google.com,Arash_Server's
