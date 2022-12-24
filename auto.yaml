@@ -421,16 +421,6 @@ proxies:
     headers:
       host: 157.230.36.235
     path: /graphql
-  - name: Germany 2
-    network: ws
-    port: 28164
-    server: 165.227.175.88
-    type: vmess
-    uuid: eba8ccf5-5ab9-4b6b-de4b-83ab920c1005
-    ws-opts:
-    path: /
-    alterId: '0'
-    cipher: auto 
   - proxies: &id001
        - USA 1
        - USA 2
@@ -461,7 +451,6 @@ proxies:
        - USA 9
        - Singapore 3
        - Singapore 4
-       - Germany 2
 proxy-groups:
 - name: 🔰 Node_Selection
   type: select
