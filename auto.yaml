@@ -410,19 +410,7 @@ proxies:
     uuid: 6fea1649-425b-4092-bf53-29792152c925
     ws-opts: null
     path: /sshkit/Ertusg86/635014638c264/
-  - name: Singapore 4
-    server: 157.230.36.235
-    port: 80
-    type: vmess
-    network: ws
-    alterId: "0"
-    cipher: auto
-    uuid: b484d576-b3e3-4ac5-b108-88a300dfe7e3
-    ws-opts: null
-      path: /graphql/
-      headers:
-        host: 157.230.36.235
-  - name: Germany 2
+   - name: Germany 2
     network: ws
     port: 28164
     server: 165.227.175.88
@@ -2025,7 +2013,6 @@ proxy-groups:
       - USA 8
       - USA 9
       - Singapore 3
-      - Singapore 4
       - Germany 2
   - name: تست_اتصال_نت
     type: select
