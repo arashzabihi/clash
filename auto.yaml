@@ -461,8 +461,6 @@ proxies:
    headers:
     host: oplg1.zhujicn2.com
    path: /5QNROSRV
-- alterId: '0'
-  cipher: auto
 proxy-groups:
 - name: 🔰 Node_Selection
   type: select
