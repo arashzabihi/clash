@@ -400,23 +400,7 @@ proxies:
     path: /shirker
     headers:
     Host: sg-gcore-2.sharecentre.online
-  - name: France 3
-    server: frdns.mainssh.xyz
-    port: 443
-    type: vmess
-    uuid: 021e4550-7a7d-4759-9897-b3c853c84bc2
-    sni: frdns.mainssh.xyz
-    alterId: 0
-    cipher: auto
-    tls: 1
-    skip-cert-verify: true
-    udp: true
-    network: ws
-    ws-opts:
-    path: /v2raydns
-    headers:
-    Host: frdns.mainssh.xyz
-  - name: Singapore 3
+   - name: Singapore 3
       server: 15.235.147.186
       port: 80
       type: vmess
@@ -459,7 +443,6 @@ proxy-groups:
       - Russia 2
       - USA 8   
       - USA 9
-      - France 3
       - Singapore 3
   #انتخاب دستی
   - name: تست_اتصال_نت
