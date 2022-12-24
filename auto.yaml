@@ -396,20 +396,20 @@ proxies:
     skip-cert-verify: true
     udp: true
     network: ws
-    ws-opts:
+    ws-opts: null
     path: /shirker
-    headers:
+    headers: null
     Host: sg-gcore-2.sharecentre.online
-   - name: Singapore 3
-     server: 15.235.147.186
-     port: 80
-     type: vmess
-     network: ws
-     alterId: '0'
-     cipher: auto
-     uuid: 6fea1649-425b-4092-bf53-29792152c925
-     ws-opts:
-     path: /sshkit/Ertusg86/635014638c264/
+  - name: Singapore 3
+    server: 15.235.147.186
+    port: 80
+    type: vmess
+    network: ws
+    alterId: "0"
+    cipher: auto
+    uuid: 6fea1649-425b-4092-bf53-29792152c925
+    ws-opts: null
+    path: /sshkit/Ertusg86/635014638c264/
 proxy-groups:
   - name: Arash_Server's
     type: url-test
@@ -441,18 +441,15 @@ proxy-groups:
       - South Korea 1
       - USA 7
       - Russia 2
-      - USA 8   
+      - USA 8
       - USA 9
       - Singapore 3
-  #انتخاب دستی
   - name: تست_اتصال_نت
     type: select
     url: https://www.digikala.com/
     interval: 300
     proxies:
       - DIRECT
-      
-      
 rules:
   - MATCH,Arash_Server's
   - DOMAIN-SUFFIX,google.com,Arash_Server's
