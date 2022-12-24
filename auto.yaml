@@ -469,7 +469,6 @@ proxy-groups:
   - ♻️ Load_Balancing
   - ♻️ failover
   - ♻️ Manual_Selection
-  - 🎯 Global_Internet
 - name: ♻️ Manual_Selection
   type: select
   url: https://captive.v2ex.co/generate_204
