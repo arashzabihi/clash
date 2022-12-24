@@ -411,10 +411,10 @@ proxies:
     ws-opts: null
     path: /sshkit/Ertusg86/635014638c264/
   - name: - Singapore 4
-    network: ws
-    port: 80
     server: 157.230.36.235
+    port: 80
     type: vmess
+    network: ws
     uuid: b484d576-b3e3-4ac5-b108-88a300dfe7e3
     ws-opts:
     headers:
