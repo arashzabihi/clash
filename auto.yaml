@@ -410,7 +410,7 @@ proxies:
     uuid: 6fea1649-425b-4092-bf53-29792152c925
     ws-opts: null
     path: /sshkit/Ertusg86/635014638c264/
-  - name: 🇸🇬_SG_新加坡_1_1@7
+  - name: - Singapore 4
     network: ws
     port: 80
     server: 157.230.36.235
@@ -456,6 +456,7 @@ proxy-groups:
       - USA 8
       - USA 9
       - Singapore 3
+      - Singapore 4
   - name: تست_اتصال_نت
     type: select
     url: https://www.digikala.com/
