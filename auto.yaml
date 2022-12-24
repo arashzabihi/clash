@@ -431,7 +431,7 @@ proxies:
     path: /
     alterId: '0'
     cipher: auto  
-     proxies: &id001
+   proxies: &id001
       - USA 1
       - USA 2
       - France 1
