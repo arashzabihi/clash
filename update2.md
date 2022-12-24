@@ -534,14 +534,12 @@ proxy-groups:
   - ♻️ Load_Balancing
   - ♻️ failover
   - ♻️ Manual_Selection
-  - 🎯 Global_Internet
-- name: 🌏 Iran's_Media
+ - name: 🌏 Iran's_Media
   type: url-test
   url: https://captive.v2ex.co/generate_204
   interval: 300
   proxies:
-  - 🎯 Global_Internet
-  - 🔰 Node_Selection
+   - 🔰 Node_Selection
   - ♻️ Auto_Selection
   - ♻️ Load_Balancing
   - ♻️ failover
@@ -563,7 +561,6 @@ proxy-groups:
   interval: 300
   proxies:
   - 🔰 Node_Selection
-  - 🎯 Global_Internet
   - ♻️ Auto_Selection
   - ♻️ Load_Balancing
   - ♻️ failover
@@ -574,24 +571,10 @@ proxy-groups:
   interval: 300
   proxies:
   - 🔰 Node_Selection
-  - 🎯 Global_Internet
   - ♻️ Auto_Selection
   - ♻️ Load_Balancing
   - ♻️ failover
   - ♻️ Manual_Selection
-- name: 🎯 Global_Internet
-  type: url-test
-  url: https://captive.v2ex.co/generate_204
-  interval: 300
-  proxies:
-  - DIRECT
-- name: 🛑 Globa_Interception
-  type: url-test
-  url: https://captive.v2ex.co/generate_204
-  interval: 300
-  proxies:
-  - REJECT
-  - DIRECT
 - name: 🐟 Slip_Throw_Net
   type: url-test
   url: https://captive.v2ex.co/generate_204
