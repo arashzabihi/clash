@@ -450,7 +450,7 @@ proxy-groups:
       - USA 8   
       - USA 9
   #انتخاب دستی
-  - name: اتصال_نت
+  - name: تست_اتصال_نت
     type: select
     url: http://www.gstatic.com/generate_204
     interval: 300
