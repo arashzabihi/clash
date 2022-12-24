@@ -457,6 +457,9 @@ proxy-groups:
       - USA 9
 rules:
   - MATCH,Arash_Server's
-  - DOMAIN-SUFFIX,google.com,auto
-  - DOMAIN-KEYWORD,google,auto
-  - DOMAIN,google.com,auto
+  - DOMAIN-SUFFIX,google.com,Arash_Server's
+  - DOMAIN-KEYWORD,google,Arash_Server's
+  - DOMAIN,google.com,Arash_Server's
+  - GEOIP,CN,Arash_Server's
+  - DST-PORT,80,Arash_Server's
+  - SRC-PORT,7777,Arash_Server's
