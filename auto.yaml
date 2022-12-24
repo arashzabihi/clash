@@ -448,7 +448,7 @@ proxy-groups:
       - Russia 2
       - USA 8   
   - name: A2
-    type: select
+    type: load-balance
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
