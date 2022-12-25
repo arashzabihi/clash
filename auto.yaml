@@ -474,7 +474,7 @@ proxy-groups:
 - name: ♻️ Manual_Selection
   type: select
   url: https://captive.v2ex.co/generate_204
-  interval: 300
+  interval: 10
   proxies: &id001
   - USA 1
   - USA 2
