@@ -561,14 +561,8 @@ proxy-groups:
   type: url-test
   url: https://captive.v2ex.co/generate_204
   interval: 10
-  proxies:
-  - 🔰 Node_Selection
-  - 🎯 Global_Internet
-  - ♻️ Auto_Selection
-  - ♻️ Load_Balancing
-  - ♻️ failover
-  - ♻️ Manual_Selection
-- name: 🍎 Apple_Services
+  proxies: *id001
+ - name: 🍎 Apple_Services
   type: url-test
   url: https://captive.v2ex.co/generate_204
   interval: 10
