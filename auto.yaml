@@ -4909,6 +4909,11 @@ proxy-groups:
   url: https://captive.v2ex.co/generate_204
   interval: 10
   proxies: *id001
+- name: 🔘 Speed_Test
+  type: url-test
+  url: https://captive.v2ex.co/generate_204
+  interval: 10
+  proxies: *id001
 - name: 🎬 YouTube
   type: url-test
   url: https://captive.v2ex.co/generate_204
@@ -5036,16 +5041,11 @@ rules:
 - DOMAIN-SUFFIX,yammer.com,Ⓜ️ Microsoft_Services
 - DOMAIN-SUFFIX,yammerusercontent.com,Ⓜ️ Microsoft_Services
 - DOMAIN,admin.xmpush.xiaomi.com,🎯 Global_Internet
-- DOMAIN-KEYWORD,speedtest,🛑 Globa_Interception
-- DOMAIN-SUFFIX,ooklaserver.net,🛑 Globa_Interception
-- DOMAIN,fast.rockisland.net,🛑 Globa_Interception
-- DOMAIN-SUFFIX,fast.com,🛑 Globa_Interception
-- DOMAIN-SUFFIX,speed.cloudflare.com,🛑 Globa_Interception
-- DOMAIN-KEYWORD,speedtest,🎯 Global_Internet
-- DOMAIN-SUFFIX,ooklaserver.net,🎯 Global_Internet
-- DOMAIN,fast.rockisland.net,🎯 Global_Internet
-- DOMAIN-SUFFIX,fast.com,🎯 Global_Internet
-- DOMAIN-SUFFIX,speed.cloudflare.com,🎯 Global_Internet
+- DOMAIN-KEYWORD,speedtest,🔘 Speed_Test
+- DOMAIN-SUFFIX,ooklaserver.net,🔘 Speed_Test
+- DOMAIN,fast.rockisland.net,🔘 Speed_Test
+- DOMAIN-SUFFIX,fast.com,🔘 Speed_Test
+- DOMAIN-SUFFIX,speed.cloudflare.com,🔘 Speed_Test
 - DOMAIN,app.adjust.com,🎯 Global_Internet
 - DOMAIN,bdtj.tagtic.cn,🎯 Global_Internet
 - DOMAIN,log.mmstat.com,🎯 Global_Internet
