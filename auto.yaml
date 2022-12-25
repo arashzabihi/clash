@@ -10622,6 +10622,8 @@ rules:
 - DOMAIN-KEYWORD,yunpan,🎯 Global_Internet
 - DOMAIN-KEYWORD,Thunder,🎯 Global_Internet
 - DOMAIN-KEYWORD,XLLiveUD,🎯 Global_Internet
+- DOMAIN-KEYWORD,Youtube,🍎 Youtube
+- DOMAIN-KEYWORD,youtube,🍎 Youtube
 - GEOIP,CN,🎯 Global_Internet
 - MATCH,🐟 Slip_Throw_Net
 - SRC-IP-CIDR,192.168.1.201/32,DIRECT
