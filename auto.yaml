@@ -13668,6 +13668,7 @@ rules:
 - DOMAIN-SUFFIX,vv.video.qq.com,🌏 Iran's_Media
 - IP-CIDR,106.11.0.0/16,🌏 Iran's_Media,no-resolve
 - DOMAIN-SUFFIX,t.me,📲 Telegram_Messanger
+- DOMAIN-SUFFIX,telegram.org,📲 Telegram_Messanger
 - DOMAIN-SUFFIX,tdesktop.com,📲 Telegram_Messanger
 - DOMAIN-SUFFIX,telegra.ph,📲 Telegram_Messanger
 - DOMAIN-SUFFIX,telegram.me,📲 Telegram_Messanger
@@ -13679,6 +13680,8 @@ rules:
 - IP-CIDR,91.108.16.0/22,📲 Telegram_Messanger,no-resolve
 - IP-CIDR,91.108.56.0/22,📲 Telegram_Messanger,no-resolve
 - IP-CIDR,149.154.160.0/20,📲 Telegram_Messanger,no-resolve
+- IP-CIDR,149.154.164.0/22,📲 Telegram_Messanger,no-resolve
+- IP-CIDR,149.154.172.0/22,📲 Telegram_Messanger,no-resolve
 - IP-CIDR6,2001:b28:f23d::/48,📲 Telegram_Messanger,no-resolve
 - IP-CIDR6,2001:b28:f23f::/48,📲 Telegram_Messanger,no-resolve
 - IP-CIDR6,2001:67c:4e8::/48,📲 Telegram_Messanger,no-resolve
