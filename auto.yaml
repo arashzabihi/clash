@@ -4010,7 +4010,7 @@ proxies:
       host: www.liuyiyang19891222.tk
     path: /
     proxies:
-- name: @S1
+- name: S1
   type: ss
   server: b.karyl.cc
   port: 33014
