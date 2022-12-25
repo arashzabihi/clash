@@ -4009,8 +4009,7 @@ proxies:
     headers:
       host: www.liuyiyang19891222.tk
     path: /
-    proxies:
-- name: S1
+- name: SS1
   type: ss
   server: b.karyl.cc
   port: 33014
@@ -4034,7 +4033,7 @@ proxies:
   port: 32025
   cipher: chacha20-ietf-poly1305
   password: 5393f4a9-dff5-4c7e-a7ae-5e3f39a9c933
-- name: SS4
+- name: SS46
   type: ss
   server: 43.206.223.130
   port: 443
@@ -4383,15 +4382,6 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /zingfast/
-- name: Ss45
-  type: vmess
-  server: v10.toddns.tk
-  network: ws
-  port: 80
-  uuid: a25881f3-967f-3265-bc7f-9e66857b016b
-  alterId: 0
-  cipher: auto
-  ws-path: /ZPKLSPJjLBEy 
 proxy-groups:
 - name: 🔰 Node_Selection
   type: url-test
@@ -4817,51 +4807,51 @@ proxy-groups:
   - 🇨🇦_CA_加拿大_24S16
   - 🇨🇦_CA_加拿大->🇺🇸_US_美国_24S21
   - 🇨🇭_CH_瑞士_24S23
-  - Ss1
-  - Ss2
-  - Ss3
-  - Ss4
-  - Ss5
-  - Ss6
-  - Ss7
-  - Ss8
-  - Ss9
-  - Ss10
-  - Ss11
-  - Ss12
-  - Ss13
-  - Ss14
-  - Ss15
-  - Ss16
-  - Ss17
-  - Ss18
-  - Ss19
-  - Ss20
-  - Ss21
-  - Ss22
-  - Ss23
-  - Ss24
-  - Ss25
-  - Ss26
-  - Ss27
-  - Ss28
-  - Ss29
-  - Ss30
-  - Ss31
-  - Ss32
-  - Ss33
-  - Ss34
-  - Ss35
-  - Ss36
-  - Ss37
-  - Ss38
-  - Ss39
-  - Ss40
-  - Ss41
-  - Ss42
-  - Ss43
-  - Ss44
-  - Ss45
+  - SS1
+  - SS2
+  - SS3
+  - SS4
+  - SS46
+  - SS5
+  - SS6
+  - SS7
+  - SS8
+  - SS9
+  - SS10
+  - SS11
+  - SS12
+  - SS13
+  - SS14
+  - SS15
+  - SS16
+  - SS17
+  - SS18
+  - SS19
+  - SS20
+  - SS21
+  - SS22
+  - SS23
+  - SS24
+  - SS25
+  - SS26
+  - SS27
+  - SS28
+  - SS29
+  - SS30
+  - SS31
+  - SS32
+  - SS33
+  - SS34
+  - SS35
+  - SS36
+  - SS37
+  - SS38
+  - SS39
+  - SS40
+  - SS41
+  - SS42
+  - SS43
+  - SS44
 - name: ♻️ Auto_Selection
   type: url-test
   url: https://captive.v2ex.co/generate_204
