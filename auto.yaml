@@ -511,23 +511,23 @@ proxy-groups:
 - name: ♻️ Auto_Selection
   type: url-test
   url: https://captive.v2ex.co/generate_204
-  interval: 300
+  interval: 10
   proxies: *id001
 - name: ♻️ Load_Balancing
   type: load-balance
   url: https://captive.v2ex.co/generate_204
-  interval: 300
+  interval: 10
   strategy: round-robin
   proxies: *id001
 - name: ♻️ failover
   type: fallback
   url: https://captive.v2ex.co/generate_204
-  interval: 300
+  interval: 10
   proxies: *id001
 - name: 🌍 Media_Stream
   type: url-test
   url: https://captive.v2ex.co/generate_204
-  interval: 300
+  interval: 10
   proxies:
   - 🔰 Node_Selection
   - ♻️ Auto_Selection
@@ -538,7 +538,7 @@ proxy-groups:
 - name: 🌏 Iran's_Media
   type: url-test
   url: https://captive.v2ex.co/generate_204
-  interval: 300
+  interval: 10
   proxies:
   - 🎯 Global_Internet
   - 🔰 Node_Selection
@@ -549,7 +549,7 @@ proxy-groups:
 - name: Ⓜ️ Microsoft_Services
   type: url-test
   url: https://captive.v2ex.co/generate_204
-  interval: 300
+  interval: 10
   proxies:
   - 🎯 Global_Internet
   - 🔰 Node_Selection
@@ -560,7 +560,7 @@ proxy-groups:
 - name: 📲 Telegram_Messanger
   type: url-test
   url: https://captive.v2ex.co/generate_204
-  interval: 300
+  interval: 10
   proxies:
   - 🔰 Node_Selection
   - 🎯 Global_Internet
@@ -571,7 +571,7 @@ proxy-groups:
 - name: 🍎 Apple_Services
   type: url-test
   url: https://captive.v2ex.co/generate_204
-  interval: 300
+  interval: 10
   proxies:
   - 🔰 Node_Selection
   - 🎯 Global_Internet
@@ -582,20 +582,20 @@ proxy-groups:
 - name: 🎯 Global_Internet
   type: url-test
   url: https://captive.v2ex.co/generate_204
-  interval: 300
+  interval: 10
   proxies:
   - DIRECT
 - name: 🛑 Globa_Interception
   type: url-test
   url: https://captive.v2ex.co/generate_204
-  interval: 300
+  interval: 10
   proxies:
   - REJECT
   - DIRECT
 - name: 🐟 Slip_Throw_Net
   type: url-test
   url: https://captive.v2ex.co/generate_204
-  interval: 300
+  interval: 10
   proxies:
   - 🎯 Global_Internet
   - ♻️ Auto_Selection
