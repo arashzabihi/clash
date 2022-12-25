@@ -5036,6 +5036,16 @@ rules:
 - DOMAIN-SUFFIX,yammer.com,Ⓜ️ Microsoft_Services
 - DOMAIN-SUFFIX,yammerusercontent.com,Ⓜ️ Microsoft_Services
 - DOMAIN,admin.xmpush.xiaomi.com,🎯 Global_Internet
+- DOMAIN-KEYWORD,speedtest,🛑 Globa_Interception
+- DOMAIN-SUFFIX,ooklaserver.net,🛑 Globa_Interception
+- DOMAIN,fast.rockisland.net,🛑 Globa_Interception
+- DOMAIN-SUFFIX,fast.com,🛑 Globa_Interception
+- DOMAIN-SUFFIX,speed.cloudflare.com,🛑 Globa_Interception
+- DOMAIN-KEYWORD,speedtest,🎯 Global_Internet
+- DOMAIN-SUFFIX,ooklaserver.net,🎯 Global_Internet
+- DOMAIN,fast.rockisland.net,🎯 Global_Internet
+- DOMAIN-SUFFIX,fast.com,🎯 Global_Internet
+- DOMAIN-SUFFIX,speed.cloudflare.com,🎯 Global_Internet
 - DOMAIN,app.adjust.com,🎯 Global_Internet
 - DOMAIN,bdtj.tagtic.cn,🎯 Global_Internet
 - DOMAIN,log.mmstat.com,🎯 Global_Internet
