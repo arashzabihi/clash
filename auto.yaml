@@ -474,7 +474,7 @@ proxy-groups:
 - name: ♻️ Manual_Selection
   type: select
   url: https://captive.v2ex.co/generate_204
-  interval: 10
+  interval: 300
   proxies: &id001
   - USA 1
   - USA 2
@@ -511,23 +511,23 @@ proxy-groups:
 - name: ♻️ Auto_Selection
   type: url-test
   url: https://captive.v2ex.co/generate_204
-  interval: 10
+  interval: 300
   proxies: *id001
 - name: ♻️ Load_Balancing
   type: load-balance
   url: https://captive.v2ex.co/generate_204
-  interval: 10
+  interval: 300
   strategy: round-robin
   proxies: *id001
 - name: ♻️ failover
   type: fallback
   url: https://captive.v2ex.co/generate_204
-  interval: 10
+  interval: 300
   proxies: *id001
 - name: 🌍 Media_Stream
   type: url-test
   url: https://captive.v2ex.co/generate_204
-  interval: 10
+  interval: 300
   proxies:
   - 🔰 Node_Selection
   - ♻️ Auto_Selection
@@ -538,7 +538,7 @@ proxy-groups:
 - name: 🌏 Iran's_Media
   type: url-test
   url: https://captive.v2ex.co/generate_204
-  interval: 10
+  interval: 300
   proxies:
   - 🎯 Global_Internet
   - 🔰 Node_Selection
@@ -549,7 +549,7 @@ proxy-groups:
 - name: Ⓜ️ Microsoft_Services
   type: url-test
   url: https://captive.v2ex.co/generate_204
-  interval: 10
+  interval: 300
   proxies:
   - 🎯 Global_Internet
   - 🔰 Node_Selection
@@ -560,30 +560,42 @@ proxy-groups:
 - name: 📲 Telegram_Messanger
   type: url-test
   url: https://captive.v2ex.co/generate_204
-  interval: 10
-  proxies: *id001
-- name: 🍎 Youtube
+  interval: 300
+  proxies:
+  - 🔰 Node_Selection
+  - 🎯 Global_Internet
+  - ♻️ Auto_Selection
+  - ♻️ Load_Balancing
+  - ♻️ failover
+  - ♻️ Manual_Selection
+- name: 🍎 Apple_Services
   type: url-test
   url: https://captive.v2ex.co/generate_204
-  interval: 10
-  proxies: *id001
+  interval: 300
+  proxies:
+  - 🔰 Node_Selection
+  - 🎯 Global_Internet
+  - ♻️ Auto_Selection
+  - ♻️ Load_Balancing
+  - ♻️ failover
+  - ♻️ Manual_Selection
 - name: 🎯 Global_Internet
   type: url-test
   url: https://captive.v2ex.co/generate_204
-  interval: 10
+  interval: 300
   proxies:
   - DIRECT
 - name: 🛑 Globa_Interception
   type: url-test
   url: https://captive.v2ex.co/generate_204
-  interval: 10
+  interval: 300
   proxies:
   - REJECT
   - DIRECT
 - name: 🐟 Slip_Throw_Net
   type: url-test
   url: https://captive.v2ex.co/generate_204
-  interval: 10
+  interval: 300
   proxies:
   - 🎯 Global_Internet
   - ♻️ Auto_Selection
@@ -9667,7 +9679,6 @@ rules:
 - DOMAIN-SUFFIX,netflixdnstest7.com,🌍 Media_Stream
 - DOMAIN-SUFFIX,netflixdnstest8.com,🌍 Media_Stream
 - DOMAIN-SUFFIX,netflixdnstest9.com,🌍 Media_Stream
-- DOMAIN-SUFFIX,instagram.com,🌍 Media_Stream
 - IP-CIDR,23.246.0.0/18,🌍 Media_Stream,no-resolve
 - IP-CIDR,37.77.184.0/21,🌍 Media_Stream,no-resolve
 - IP-CIDR,45.57.0.0/17,🌍 Media_Stream,no-resolve
@@ -10269,6 +10280,28 @@ rules:
 - DOMAIN-SUFFIX,cmx.im,🔰 Node_Selection
 - DOMAIN-SUFFIX,githubassets.com,🔰 Node_Selection
 - DOMAIN-SUFFIX,mayiapk.com,🔰 Node_Selection
+- DOMAIN-SUFFIX,aaplimg.com,🍎 Apple_Services
+- DOMAIN-SUFFIX,apple.co,🍎 Apple_Services
+- DOMAIN-SUFFIX,apple.com,🍎 Apple_Services
+- DOMAIN-SUFFIX,apple.com.cn,🍎 Apple_Services
+- DOMAIN-SUFFIX,apple-cloudkit.com,🍎 Apple_Services
+- DOMAIN-SUFFIX,appstore.com,🍎 Apple_Services
+- DOMAIN-SUFFIX,cdn-apple.com,🍎 Apple_Services
+- DOMAIN-SUFFIX,icloud.com,🍎 Apple_Services
+- DOMAIN-SUFFIX,icloud.com.cn,🍎 Apple_Services
+- DOMAIN-SUFFIX,icloud-content.com,🍎 Apple_Services
+- DOMAIN-SUFFIX,me.com,🍎 Apple_Services
+- DOMAIN-SUFFIX,mzstatic.com,🍎 Apple_Services
+- DOMAIN-KEYWORD,apple.com.akadns.net,🍎 Apple_Services
+- DOMAIN-KEYWORD,icloud.com.akadns.net,🍎 Apple_Services
+- IP-CIDR,17.0.0.0/8,🍎 Apple_Services,no-resolve
+- IP-CIDR,63.92.224.0/19,🍎 Apple_Services,no-resolve
+- IP-CIDR,65.199.22.0/23,🍎 Apple_Services,no-resolve
+- IP-CIDR,139.178.128.0/18,🍎 Apple_Services,no-resolve
+- IP-CIDR,144.178.0.0/19,🍎 Apple_Services,no-resolve
+- IP-CIDR,192.35.50.0/24,🍎 Apple_Services,no-resolve
+- IP-CIDR,198.183.17.0/24,🍎 Apple_Services,no-resolve
+- IP-CIDR,205.180.175.0/24,🍎 Apple_Services,no-resolve
 - DOMAIN-SUFFIX,qhres.com,🎯 Global_Internet
 - DOMAIN-SUFFIX,qhimg.com,🎯 Global_Internet
 - DOMAIN-SUFFIX,alibaba.com,🎯 Global_Internet
@@ -10601,8 +10634,6 @@ rules:
 - DOMAIN-KEYWORD,yunpan,🎯 Global_Internet
 - DOMAIN-KEYWORD,Thunder,🎯 Global_Internet
 - DOMAIN-KEYWORD,XLLiveUD,🎯 Global_Internet
-- DOMAIN-KEYWORD,Youtube,🍎 Youtube
-- DOMAIN-KEYWORD,youtube,🍎 Youtube
 - GEOIP,CN,🎯 Global_Internet
 - MATCH,🐟 Slip_Throw_Net
 - SRC-IP-CIDR,192.168.1.201/32,DIRECT
@@ -10611,12 +10642,3 @@ rules:
 - GEOIP,CN,DIRECT
 - DST-PORT,80,DIRECT
 - SRC-PORT,7777,DIRECT
-tunnels:
-  # one line config
-  - tcp/udp,127.0.0.1:6553,114.114.114.114:53,proxy
-  - tcp,127.0.0.1:6666,rds.mysql.com:3306,vpn
-  # full yaml config
-  - network: [tcp, udp]
-    address: 127.0.0.1:7777
-    target: target.com
-    proxy: proxy
