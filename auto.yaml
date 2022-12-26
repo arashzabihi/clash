@@ -4914,6 +4914,11 @@ proxy-groups:
   url: https://captive.v2ex.co/generate_204
   interval: 10
   proxies: *id001
+ - name: 💌 INSTAGRAM
+  type: url-test
+  url: https://captive.v2ex.co/generate_204
+  interval: 10
+  proxies: *id001
 - name: 🎬 YouTube
   type: url-test
   url: https://captive.v2ex.co/generate_204
@@ -4955,6 +4960,9 @@ proxy-groups:
   - ♻️ Manual_Selection
   - 🔰 Node_Selection
 rules:
+- DOMAIN-KEYWORD,instagram, 💌 INSTAGRAM
+- DOMAIN-SUFFIX,cdninstagram.com, 💌 INSTAGRAM
+- DOMAIN-SUFFIX,instagram.com, 💌 INSTAGRAM
 - DOMAIN-SUFFIX,local,🎯 Global_Internet
 - IP-CIDR,192.168.0.0/16,🎯 Global_Internet,no-resolve
 - IP-CIDR,10.0.0.0/8,🎯 Global_Internet,no-resolve
