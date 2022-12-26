@@ -4919,6 +4919,11 @@ proxy-groups:
   url: https://captive.v2ex.co/generate_204
   interval: 10
   proxies: *id001
+- name: Breaker
+  type: url-test
+  url: https://captive.v2ex.co/generate_204
+  interval: 10
+  proxies: *id001
 - name: 🎬 YouTube
   type: url-test
   url: https://captive.v2ex.co/generate_204
@@ -4960,6 +4965,7 @@ proxy-groups:
   - ♻️ Manual_Selection
   - 🔰 Node_Selection
 rules:
+- DOMAIN-KEYWORD,breaker, Breaker
 - DOMAIN-KEYWORD,instagram, 💌 INSTAGRAM
 - DOMAIN-SUFFIX,cdninstagram.com, 💌 INSTAGRAM
 - DOMAIN-SUFFIX,instagram.com, 💌 INSTAGRAM
