@@ -4963,6 +4963,9 @@ rules:
 - DOMAIN-KEYWORD,instagram, 💌 INSTAGRAM
 - DOMAIN-SUFFIX,cdninstagram.com, 💌 INSTAGRAM
 - DOMAIN-SUFFIX,instagram.com, 💌 INSTAGRAM
+- DOMAIN-SUFFIX,ig.me, 💌 INSTAGRAM
+- IP-CIDR,104.123.31.44/32,💌 INSTAGRAM,no-resolve
+- IP-CIDR,157.240.208.0/24,💌 INSTAGRAM,no-resolve
 - DOMAIN-SUFFIX,local,🎯 Global_Internet
 - IP-CIDR,192.168.0.0/16,🎯 Global_Internet,no-resolve
 - IP-CIDR,10.0.0.0/8,🎯 Global_Internet,no-resolve
