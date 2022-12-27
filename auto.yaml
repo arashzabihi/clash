@@ -38,6 +38,7 @@ tun:
 experimental:
   interface-name: en0
 proxies:
+- {name: USA00, server: www.bing.com, port: 443, type: vmess, uuid: a40d34c6-b77c-4648-9210-3e8d2f4226b5, sni: usv-4.openv2ray.com, alterId: 16, cipher: auto, tls: 1, skip-cert-verify: true, udp: true, network: ws, ws-opts: {path: /opentunnel?user=opentunnel.net-6m89294278e, headers: {Host: usv-4.openv2ray.com}}}
 - name: USA 1
   server: 45.80.111.169
   port: 8880
@@ -4400,6 +4401,7 @@ proxy-groups:
   url: https://captive.v2ex.co/generate_204
   interval: 10
   proxies: &id001
+  - USA00
   - USA 1
   - USA 2
   - France 1
