@@ -8361,7 +8361,7 @@ proxy-groups:
 - name: 🔰 Node_Selection
   type: url-test
   url: https://captive.v2ex.co/generate_204
-  interval: 300
+  interval: 1
   proxies:
   - ♻️ Auto_Selection
   - ♻️ Load_Balancing
@@ -8375,8 +8375,9 @@ proxy-groups:
 - name: ♻️ Manual_Selection
   type: select
   url: https://captive.v2ex.co/generate_204
-  interval: 300
+  interval: 1
   proxies: &id001
+  - DIRECT
   - USA00
   - USA 1
   - USA 2
@@ -9381,23 +9382,23 @@ proxy-groups:
 - name: ♻️ Auto_Selection
   type: url-test
   url: https://captive.v2ex.co/generate_204
-  interval: 300
+  interval: 1
   proxies: *id001
 - name: ♻️ Load_Balancing
   type: load-balance
   url: https://captive.v2ex.co/generate_204
-  interval: 300
+  interval: 1
   strategy: round-robin
   proxies: *id001
 - name: ♻️ failover
   type: fallback
   url: https://captive.v2ex.co/generate_204
-  interval: 300
+  interval: 1
   proxies: *id001
 - name: 🌍 Media_Stream
   type: url-test
   url: https://captive.v2ex.co/generate_204
-  interval: 100
+  interval: 1
   proxies:
   - ♻️ Auto_Selection
   - ♻️ Load_Balancing
@@ -9406,22 +9407,22 @@ proxy-groups:
 - name: Ⓜ️ MetaTrader
   type: url-test
   url: https://captive.v2ex.co/generate_204
-  interval: 100
+  interval: 1
   proxies: *id001
 - name: 📲 Telegram_Messanger
   type: url-test
   url: https://captive.v2ex.co/generate_204
-  interval: 100
+  interval: 1
   proxies: *id001
 - name: 💌 INSTAGRAM
   type: url-test
   url: https://captive.v2ex.co/generate_204
-  interval: 100
+  interval: 1
   proxies: *id001
 - name: 🎬 YouTube
   type: url-test
   url: https://captive.v2ex.co/generate_204
-  interval: 100
+  interval: 1
   proxies: *id001
 rules:
 - DOMAIN-SUFFIX,mql5.com, Ⓜ️ MetaTrader
