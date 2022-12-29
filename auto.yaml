@@ -8366,12 +8366,12 @@ proxy-groups:
   - ♻️ Auto_Selection
   - ♻️ Load_Balancing
   - ♻️ failover
- - name: ♻️ Manual_Selection
+- name: ♻️ Manual_Selection
   type: select
   url: https://captive.v2ex.co/generate_204
   interval: 10
   proxies: &id001
-   - USA00
+  - USA00
   - USA 1
   - USA 2
   - France 1
