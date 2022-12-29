@@ -8309,7 +8309,7 @@ proxy-groups:
   type: url-test
   url: https://captive.v2ex.co/generate_204
   interval: 10
-  proxies:
+ proxies:
   - ♻️ Auto_Selection
   - ♻️ Load_Balancing
   - ♻️ failover
@@ -8318,7 +8318,7 @@ proxy-groups:
   type: select
   url: https://captive.v2ex.co/generate_204
   interval: 10
-  proxies: &id001
+ proxies: &id001
   - DIRECT
   - USA00
   - USA 1
@@ -9325,23 +9325,23 @@ proxy-groups:
   type: url-test
   url: https://captive.v2ex.co/generate_204
   interval: 300
-  proxies: *id001
+ proxies: *id001
 - name: ♻️ Load_Balancing
   type: load-balance
   url: https://captive.v2ex.co/generate_204
   interval: 300
   strategy: round-robin
-  proxies: *id001
+ proxies: *id001
 - name: ♻️ failover
   type: fallback
   url: https://captive.v2ex.co/generate_204
   interval: 300
-  proxies: *id001
+ proxies: *id001
 - name: 🌍 Media_Stream
   type: url-test
   url: https://captive.v2ex.co/generate_204
   interval: 300
-  proxies:
+ proxies:
   - 🔰 Node_Selection
   - ♻️ Auto_Selection
   - ♻️ Load_Balancing
@@ -9351,7 +9351,7 @@ proxy-groups:
   type: url-test
   url: https://captive.v2ex.co/generate_204
   interval: 300
-  proxies:
+ proxies:
   - 🔰 Node_Selection
   - ♻️ Auto_Selection
   - ♻️ Load_Balancing
@@ -9361,33 +9361,33 @@ proxy-groups:
   type: url-test
   url: https://captive.v2ex.co/generate_204
   interval: 300
-  proxies: *id001
+ proxies: *id001
 # telegram  
 - name: 📲 Telegram_Messanger
   type: url-test
   url: https://captive.v2ex.co/generate_204
   interval: 300
-  proxies: *id001
+ proxies: *id001
 - name: 🔘 Speed_Test
   type: url-test
   url: https://captive.v2ex.co/generate_204
   interval: 300
-  proxies: *id001
+ proxies: *id001
 - name: 💌 INSTAGRAM
   type: url-test
   url: https://captive.v2ex.co/generate_204
   interval: 300
-  proxies: *id001
+ proxies: *id001
 - name: 🎬 YouTube
   type: url-test
   url: https://captive.v2ex.co/generate_204
   interval: 300
-  proxies: *id001
+ proxies: *id001
 - name: 🐟 Slip_Throw_Net
   type: url-test
   url: https://captive.v2ex.co/generate_204
   interval: 300
-  proxies:
+ proxies:
   - ♻️ Auto_Selection
   - ♻️ Load_Balancing
   - ♻️ failover
