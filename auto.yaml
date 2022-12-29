@@ -1,8 +1,61 @@
+port: 7890
+socks-port: 7891
+redir-port: 7892
+mixed-port: 7893
+mode: rule
+log-level: silent
 allow-lan: true
 external-controller: 0.0.0.0:9090
-log-level: info
-mixed-port: 7890
-mode: Rule
+bind-address: "*"
+ipv6: false
+dns:
+  enable: true
+  ipv6: false
+  enhanced-mode: redir-host
+  listen: 0.0.0.0:7894
+  fallback-filter:
+    geoip: false
+    ipcidr:
+      - 240.0.0.0/4
+  nameserver:
+    - https://puredns.org/dns-query
+    - tls://puredns.org:853
+  fallback:
+    - tcp://108.137.44.39
+    - tcp://108.137.44.9
+    - 108.137.44.39
+    - 108.137.44.9
+tun:
+  enable: true
+  stack: system
+  macOS-auto-route: true
+  macOS-auto-detect-interface: true
+  dns-hijack:
+    - tcp://108.137.44.39:53
+    - 119.29.29.29
+    - 223.5.5.5
+    - 8.8.8.8
+experimental:
+  interface-name: en0
+  proxy-providers:
+  provider1:
+    type: http
+    url: "url"
+    interval: 3600
+    path: ./provider1.yaml
+    # filter: 'a|b' # golang regex string
+    health-check:
+      enable: true
+      interval: 600
+      # lazy: true
+      url: http://www.gstatic.com/generate_204
+  test:
+    type: file
+    path: /test.yaml
+    health-check:
+      enable: true
+      interval: 36000
+      url: http://www.gstatic.com/generate_204
 proxies:
 - name: USA00
   server: www.bing.com
@@ -8309,7 +8362,7 @@ proxy-groups:
   type: url-test
   url: https://captive.v2ex.co/generate_204
   interval: 10
- proxies:
+  proxies:
   - ♻️ Auto_Selection
   - ♻️ Load_Balancing
   - ♻️ failover
@@ -8318,7 +8371,7 @@ proxy-groups:
   type: select
   url: https://captive.v2ex.co/generate_204
   interval: 10
- proxies: &id001
+  proxies: &id001
   - DIRECT
   - USA00
   - USA 1
@@ -9325,23 +9378,23 @@ proxy-groups:
   type: url-test
   url: https://captive.v2ex.co/generate_204
   interval: 300
- proxies: *id001
+  proxies: *id001
 - name: ♻️ Load_Balancing
   type: load-balance
   url: https://captive.v2ex.co/generate_204
   interval: 300
   strategy: round-robin
- proxies: *id001
+  proxies: *id001
 - name: ♻️ failover
   type: fallback
   url: https://captive.v2ex.co/generate_204
   interval: 300
- proxies: *id001
+  proxies: *id001
 - name: 🌍 Media_Stream
   type: url-test
   url: https://captive.v2ex.co/generate_204
   interval: 300
- proxies:
+  proxies:
   - 🔰 Node_Selection
   - ♻️ Auto_Selection
   - ♻️ Load_Balancing
@@ -9351,7 +9404,7 @@ proxy-groups:
   type: url-test
   url: https://captive.v2ex.co/generate_204
   interval: 300
- proxies:
+  proxies:
   - 🔰 Node_Selection
   - ♻️ Auto_Selection
   - ♻️ Load_Balancing
@@ -9361,33 +9414,33 @@ proxy-groups:
   type: url-test
   url: https://captive.v2ex.co/generate_204
   interval: 300
- proxies: *id001
+  proxies: *id001
 # telegram  
 - name: 📲 Telegram_Messanger
   type: url-test
   url: https://captive.v2ex.co/generate_204
   interval: 300
- proxies: *id001
+  proxies: *id001
 - name: 🔘 Speed_Test
   type: url-test
   url: https://captive.v2ex.co/generate_204
   interval: 300
- proxies: *id001
+  proxies: *id001
 - name: 💌 INSTAGRAM
   type: url-test
   url: https://captive.v2ex.co/generate_204
   interval: 300
- proxies: *id001
+  proxies: *id001
 - name: 🎬 YouTube
   type: url-test
   url: https://captive.v2ex.co/generate_204
   interval: 300
- proxies: *id001
+  proxies: *id001
 - name: 🐟 Slip_Throw_Net
   type: url-test
   url: https://captive.v2ex.co/generate_204
   interval: 300
- proxies:
+  proxies:
   - ♻️ Auto_Selection
   - ♻️ Load_Balancing
   - ♻️ failover
