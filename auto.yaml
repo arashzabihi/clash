@@ -8357,6 +8357,19 @@ proxies:
   skip-cert-verify: true
   type: trojan
   udp: true
+proxy-groups:
+- name: 🔰 Node_Selection
+  type: url-test
+  url: https://captive.v2ex.co/generate_204
+  interval: 200
+  proxies:
+  - ♻️ Auto_Selection
+  - ♻️ Load_Balancing
+  - ♻️ failover
+- name: ♻️ Manual_Selection
+  type: select
+  url: https://captive.v2ex.co/generate_204
+  interval: 200
   proxies: &id001
   - USA00
   - USA 1
@@ -9359,7 +9372,6 @@ proxies:
   - 🇺🇸US🇺🇸US_1197_1243_2@1168
   - 🇺🇸US🇺🇸US_1206_1249_2@1174
   - 🇺🇸US🇺🇸US_1204_1252_2@1177
-proxy-groups:
 - name: ♻️ Auto_Selection
   type: url-test
   url: https://captive.v2ex.co/generate_204
@@ -9376,18 +9388,6 @@ proxy-groups:
   url: https://captive.v2ex.co/generate_204
   interval: 100
   proxies: *id001
-- name: 🔰 Node_Selection
-  type: url-test
-  url: https://captive.v2ex.co/generate_204
-  interval: 200
-  proxies:
-  - ♻️ Auto_Selection
-  - ♻️ Load_Balancing
-  - ♻️ failover
-- name: ♻️ Manual_Selection
-  type: select
-  url: https://captive.v2ex.co/generate_204
-  interval: 200
 - name: 🌍 Media_Stream
   type: url-test
   url: https://captive.v2ex.co/generate_204
