@@ -9407,7 +9407,7 @@ proxy-groups:
   - ♻️ Load_Balancing
   - ♻️ failover
 - name: 💌 INSTAGRAM
- type: select
+  type: select
   proxies:
   - ♻️ Auto_Selection
   - ♻️ Load_Balancing
