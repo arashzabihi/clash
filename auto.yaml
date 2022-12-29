@@ -8361,7 +8361,7 @@ proxy-groups:
 - name: 🔰 Node_Selection
   type: url-test
   url: https://captive.v2ex.co/generate_204
-  interval: 200
+  interval: 300
   proxies:
   - ♻️ Auto_Selection
   - ♻️ Load_Balancing
@@ -8369,7 +8369,7 @@ proxy-groups:
 - name: ♻️ Manual_Selection
   type: select
   url: https://captive.v2ex.co/generate_204
-  interval: 200
+  interval: 300
   proxies: &id001
   - USA00
   - USA 1
@@ -9375,18 +9375,18 @@ proxy-groups:
 - name: ♻️ Auto_Selection
   type: url-test
   url: https://captive.v2ex.co/generate_204
-  interval: 100
+  interval: 300
   proxies: *id001
 - name: ♻️ Load_Balancing
   type: load-balance
   url: https://captive.v2ex.co/generate_204
-  interval: 100
+  interval: 300
   strategy: round-robin
   proxies: *id001
 - name: ♻️ failover
   type: fallback
   url: https://captive.v2ex.co/generate_204
-  interval: 100
+  interval: 300
   proxies: *id001
 - name: 🌍 Media_Stream
   type: url-test
