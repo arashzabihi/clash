@@ -8372,8 +8372,7 @@ proxy-groups:
   url: https://captive.v2ex.co/generate_204
   interval: 10
   proxies: &id001
-  - DIRECT
-  - USA00
+   - USA00
   - USA 1
   - USA 2
   - France 1
