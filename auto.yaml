@@ -37,7 +37,6 @@ tun:
     - 8.8.8.8
 experimental:
   interface-name: en0
-proxy-providers:
 proxies:
 - name: USA00
   server: www.bing.com
