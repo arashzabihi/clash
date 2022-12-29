@@ -37,6 +37,7 @@ tun:
     - 8.8.8.8
 experimental:
   interface-name: en0
+proxy-providers:
 proxies:
 - name: USA00
   server: www.bing.com
@@ -4400,7 +4401,7 @@ proxies:
   cipher: auto
   tls: false
   ws-path: /zingfast/
-  - cipher: aes-256-gcm
+- cipher: aes-256-gcm
   country: 🇺🇸US
   name: 🇺🇸US_58_0@57
   password: kDWvXYZoTBcGkC4
@@ -9380,7 +9381,7 @@ proxy-groups:
   - ♻️ Load_Balancing
   - ♻️ failover
   - ♻️ Manual_Selection
- - name: 🌏 Iran's_Media
+- name: 🌏 Iran's_Media
   type: url-test
   url: https://captive.v2ex.co/generate_204
   interval: 300
@@ -9395,11 +9396,12 @@ proxy-groups:
   url: https://captive.v2ex.co/generate_204
   interval: 300
   proxies:
-   - 🔰 Node_Selection
+  - 🔰 Node_Selection
   - ♻️ Auto_Selection
   - ♻️ Load_Balancing
   - ♻️ failover
   - ♻️ Manual_Selection
+# telegram  
 - name: 📲 Telegram_Messanger
   type: url-test
   url: https://captive.v2ex.co/generate_204
