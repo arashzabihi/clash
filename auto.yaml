@@ -38,6 +38,9 @@ tun:
 experimental:
   interface-name: en0
 proxies:
+- {name: Hong Kong 025, server: 16.163.58.37, port: 80, type: vmess, uuid: 0b966d8a-5580-41c5-8a71-0623edf3d563, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /filestreamingservice/files/c898398e-68cb-3e5d-a6d3-1c72238dc086, headers: {Host: tlu.dl.delivery.mp.microsoft.com}}, udp: true}
+- {name: Hong Kong 010, server: gcorehk.sylu.cyou, port: 443, type: vmess, uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /Falling42gcorehknode, headers: {Host: gcorehk.sylu.cyou}}, udp: true}
+- {name: Japan 015, server: 20.239.76.193, port: 44151, type: vmess, uuid: a1ecfeb2-2355-335d-bb36-d725a5e306f5, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /zz}, udp: true}
 - {name: United States 003, server: us2.trojanvh.xyz, port: 80, type: trojan, password: 011eb011-c68e-4f92-80eb-f9bbef707bef, sni: us2.trojanvh.xyz, skip-cert-verify: true, udp: true}
 - {name: Hong Kong 003, server: gcsshkk.sylu.cyou, port: 443, type: vmess, uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /Falling42gcsshkknode, headers: {Host: gcsshkk.sylu.cyou}}, udp: true}
 - {name: Mongolia 001, server: 103.168.56.77, port: 443, type: trojan, password: 4f2c305b-9a03-4493-b3e4-2dff2f1af8c9, sni: wx.qq.com, skip-cert-verify: true, udp: true}
@@ -4418,6 +4421,9 @@ proxy-groups:
   url: https://captive.v2ex.co/generate_204
   interval: 10
   proxies: &id001
+  - Hong Kong 025
+  - Hong Kong 10
+  - Japan 015
   - United States 003
   - Hong Kong 0003
   - Mongolia 0001
