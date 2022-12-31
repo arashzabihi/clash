@@ -38,6 +38,9 @@ tun:
 experimental:
   interface-name: en0
 proxies:
+- {name: South Korea 009, server: kr1.sanfen001.pics, port: 443, type: vmess, uuid: dc8a0a4d-379a-40c8-86ea-964fc3f68771, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /zh-cn, headers: {Host: kr1.sanfen001.pics}}, udp: true}
+- {name: Saudi Arabia 001, server: 193.122.65.167, port: 80, type: vmess, uuid: ed71c245-88af-484e-970c-29ac50637847, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 193.122.65.167}}, udp: true}
+- {name: South Korea 008, server: 20.239.76.193, port: 44366, type: vmess, uuid: a1ecfeb2-2355-335d-bb36-d725a5e306f5, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /zz, headers: {Host: 20.194.43.105}}, udp: true}
 - {name: Hong Kong 025, server: 16.163.58.37, port: 80, type: vmess, uuid: 0b966d8a-5580-41c5-8a71-0623edf3d563, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /filestreamingservice/files/c898398e-68cb-3e5d-a6d3-1c72238dc086, headers: {Host: tlu.dl.delivery.mp.microsoft.com}}, udp: true}
 - {name: Hong Kong 010, server: gcorehk.sylu.cyou, port: 443, type: vmess, uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /Falling42gcorehknode, headers: {Host: gcorehk.sylu.cyou}}, udp: true}
 - {name: Japan 015, server: 20.239.76.193, port: 44151, type: vmess, uuid: a1ecfeb2-2355-335d-bb36-d725a5e306f5, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /zz}, udp: true}
@@ -4421,6 +4424,9 @@ proxy-groups:
   url: https://captive.v2ex.co/generate_204
   interval: 10
   proxies: &id001
+  - South Korea 009
+  - Saudi Arabia 001
+  - South Korea 008
   - Hong Kong 025
   - Hong Kong 010
   - Japan 015
