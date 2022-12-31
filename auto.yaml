@@ -38,6 +38,7 @@ tun:
 experimental:
   interface-name: en0
 proxies:
+- {"type":"trojan","name":" JP 001 ","server":"138.2.45.243","port":443,"password":"c19d1432-8b3e-4818-8837-3d160cf65908","udp":true,"skip-cert-verify":true,"sni":"138.2.45.243"}
 - {name: South Korea 009, server: kr1.sanfen001.pics, port: 443, type: vmess, uuid: dc8a0a4d-379a-40c8-86ea-964fc3f68771, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /zh-cn, headers: {Host: kr1.sanfen001.pics}}, udp: true}
 - {name: Saudi Arabia 001, server: 193.122.65.167, port: 80, type: vmess, uuid: ed71c245-88af-484e-970c-29ac50637847, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 193.122.65.167}}, udp: true}
 - {name: South Korea 008, server: 20.239.76.193, port: 44366, type: vmess, uuid: a1ecfeb2-2355-335d-bb36-d725a5e306f5, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /zz, headers: {Host: 20.194.43.105}}, udp: true}
@@ -4424,6 +4425,7 @@ proxy-groups:
   url: https://captive.v2ex.co/generate_204
   interval: 10
   proxies: &id001
+  - JP 001
   - South Korea 009
   - Saudi Arabia 001
   - South Korea 008
