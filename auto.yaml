@@ -38,7 +38,8 @@ tun:
 experimental:
   interface-name: en0
 proxies:
-- {name: Mongolia 01, server: 103.168.56.77, port: 443, type: trojan, password: 4f2c305b-9a03-4493-b3e4-2dff2f1af8c9, sni: wx.qq.com, skip-cert-verify: true, udp: true}
+- {name: Hong Kong 003, server: gcsshkk.sylu.cyou, port: 443, type: vmess, uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /Falling42gcsshkknode, headers: {Host: gcsshkk.sylu.cyou}}, udp: true}
+- {name: Mongolia 001, server: 103.168.56.77, port: 443, type: trojan, password: 4f2c305b-9a03-4493-b3e4-2dff2f1af8c9, sni: wx.qq.com, skip-cert-verify: true, udp: true}
 - name: USA00
   server: www.bing.com
   port: 443
@@ -4416,7 +4417,8 @@ proxy-groups:
   url: https://captive.v2ex.co/generate_204
   interval: 10
   proxies: &id001
-  - Mongolia 01
+  - Hong Kong 0003
+  - Mongolia 0001
   - USA00
   - USA 1
   - USA 2
