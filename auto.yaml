@@ -38,6 +38,7 @@ tun:
 experimental:
   interface-name: en0
 proxies:
+- {name: Mongolia 01, server: 103.168.56.77, port: 443, type: trojan, password: 4f2c305b-9a03-4493-b3e4-2dff2f1af8c9, sni: wx.qq.com, skip-cert-verify: true, udp: true}
 - name: USA00
   server: www.bing.com
   port: 443
@@ -4415,6 +4416,7 @@ proxy-groups:
   url: https://captive.v2ex.co/generate_204
   interval: 10
   proxies: &id001
+  - Mongolia 01
   - USA00
   - USA 1
   - USA 2
