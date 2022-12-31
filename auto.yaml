@@ -4422,7 +4422,7 @@ proxy-groups:
   interval: 10
   proxies: &id001
   - Hong Kong 025
-  - Hong Kong 10
+  - Hong Kong 010
   - Japan 015
   - United States 003
   - Hong Kong 0003
