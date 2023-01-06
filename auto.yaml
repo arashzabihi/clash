@@ -10365,7 +10365,6 @@ rules:
 - GEOIP,CN,DIRECT
 - DST-PORT,80,DIRECT
 - SRC-PORT,7777,DIRECT
-f.dahuangcheng.cn,?? Globa_Interception
 - DOMAIN-SUFFIX,gydag.com,?? Globa_Interception
 - DOMAIN-SUFFIX,gyrtg.com,?? Globa_Interception
 - DOMAIN-SUFFIX,gz.hxdaka.com,?? Globa_Interception
