@@ -491,7 +491,6 @@ proxies:
   - 🇸🇪 Sweden 01
   - 🇸🇪 Sweden 02
   - 🇸🇪 Sweden 03
-
 - name: ?? Auto_Selection
   type: url-test
   url: https://captive.v2ex.co/generate_204
