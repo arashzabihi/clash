@@ -59,18 +59,18 @@ proxies:
 - {name: S4 , server: jp11.baf1.sbs, port: 4122, type: vmess, uuid: dd64313b-f278-4889-adfa-e7178d74590e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: jp1.czs1000.com, udp: true}
 - {name: S5 , server: jp12.baf1.sbs, port: 8886, type: vmess, uuid: dd64313b-f278-4889-adfa-e7178d74590e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: jp2.czs1000.com, udp: true}
 - {name: S6 , server: us3.baf1.sbs, port: 11227, type: vmess, uuid: dd64313b-f278-4889-adfa-e7178d74590e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /filestreamingservice/files/20f813e2-036a-42a8-92e2-a3a55a0b239b, headers: {Host: tlu.dl.delivery.mp.microsoft.com}}, udp: true}
-- {name: HK2, type:trojan ,server: 20.205.4.127,port:443,password:d2727ecc-87bd-4bd0-b321-eb037b5d4cca,udp:true,skip-cert-verify:true,sni:mzy.windowsupdate1.com}
-- {type:trojan , name: SG1,server: 194.233.151.107,port:443,password:c8174260-818e-11ed-815e-1239d0255272,udp:true,skip-cert-verify:true,sni:soft98.ir}
-- {type:trojan , name: FR2,server: 195.154.118.180,port:443,password:1cf154b0-6c17-11ed-a3c5-1239d0255272,udp:true,skip-cert-verify:true,sni:soft98.ir}
-- {type:trojan , name: HK3,server: 20.205.37.136,port:443,password:aef2ca33-b162-409f-8f16-4c736c338412,udp:true,skip-cert-verify:true,sni:20.205.37.136}
-- {type:trojan , name: CA1,server: 149.56.132.41,port:80,password:89d81c5f-3d75-42f7-8a23-1be9ac89f3fb,udp:true,skip-cert-verify:true,sni:ca1.trojanvh.xyz}
-- {type:trojan , name: NL2,server: 161.35.247.35,port:443,password:3628ca8d-6371-45df-879c-2d3e5d110b51,udp:true,skip-cert-verify:true,sni:ams.iqmtp.live}
-- {type:ss , name: US3, server: 38.91.102.30,port:5000,cipher:aes-256-gcm,password:Y6R9pAtvxxzmGC}
-- {type:trojan , name: HK4,server: 20.239.165.108,port:443,password:53f20cd4-b381-4a80-8059-7bcd484bbb52,udp:true,skip-cert-verify:true,sni:sg.liangyuandian.top}
-- {type:trojan , name: HK5,server: 20.187.64.129,port:443,password:4f8c0e41-dbdb-40f1-99cb-2c2a0b909b52,udp:true,skip-cert-verify:true,sni:kh.iamnotagoodman.com}
-- {type:trojan , name: US4,server: 135.148.148.4,port:80,password:76fcac80-9943-4eab-8717-0ebebea94b70,udp:true,skip-cert-verify:true,sni:us3.trojanvh.xyz}
-- {type:ss , name: US5,server: 38.91.102.30,port:7001,cipher:aes-256-gcm,password:RexnBgU7EV5ADxG}
-- {type:ss , name: US6,server: 38.91.102.30,port:5500,cipher:aes-256-gcm,password:KixLvKzwjekG00rm}
+- {name: HK2, type: trojan ,server: 20.205.4.127,port:   443,password: d2727ecc-87bd-4bd0-b321-eb037b5d4cca,udp: true,skip-cert-verify: true,sni: mzy.windowsupdate1.com}
+- {name: SG1, type: trojan  ,server: 194.233.151.107,port: 443,password: c8174260-818e-11ed-815e-1239d0255272,udp :true,skip-cert-verify: true,sni: soft98.ir}
+- {name: FR2, type: trojan , server: 195.154.118.180,port: 443,password: 1cf154b0-6c17-11ed-a3c5-1239d0255272,udp: true,skip-cert-verify: true,sni: soft98.ir}
+- {type: trojan , name: HK3,server: 20.205.37.136,port: 443,password: aef2ca33-b162-409f-8f16-4c736c338412,udp: true,skip-cert-verify: true,sni: 20.205.37.136}
+- {type: trojan , name: CA1,server: 149.56.132.41,port: 80,password: 89d81c5f-3d75-42f7-8a23-1be9ac89f3fb,udp: true,skip-cert-verify: true,sni: ca1.trojanvh.xyz}
+- {type: trojan , name: NL2,server: 161.35.247.35,port: 443,password: 3628ca8d-6371-45df-879c-2d3e5d110b51,udp: true,skip-cert-verify: true,sni: ams.iqmtp.live}
+- {type: ss , name: US3, server: 38.91.102.30,port: 5000,cipher: aes-256-gcm,password: Y6R9pAtvxxzmGC}
+- {type: trojan , name: HK4,server: 20.239.165.108,port: 443,password: 53f20cd4-b381-4a80-8059-7bcd484bbb52,udp: true,skip-cert-verify: true,sni: sg.liangyuandian.top}
+- {type: trojan , name: HK5,server: 20.187.64.129,port: 443,password: 4f8c0e41-dbdb-40f1-99cb-2c2a0b909b52,udp: true,skip-cert-verify: true,sni: kh.iamnotagoodman.com}
+- {type: trojan , name: US4,server: 135.148.148.4,port: 80,password: 76fcac80-9943-4eab-8717-0ebebea94b70,udp: true,skip-cert-verify: true,sni: us3.trojanvh.xyz}
+- {type:  ss , name: US5,server: 38.91.102.30,port: 7001,cipher: aes-256-gcm,password: RexnBgU7EV5ADxG}
+- {type: ss , name: US6,server: 38.91.102.30,port: 5500,cipher: aes-256-gcm,password: KixLvKzwjekG00rm}
 proxy-groups:
 - name: ?? Node_Selection
   type: url-test
@@ -86,39 +86,39 @@ proxy-groups:
   url: https://captive.v2ex.co/generate_204
   interval: 10
   proxies: &id001
-  -MN1
-  -US1
-  -HK1
-  -AU1
-  -AU2
-  -DE1
-  -FR1
-  -UK1
-  -UK2
-  -IN1
-  -IN2
-  -IT1
-  -NL1
-  -RU1
-  -PL1
-  -S1
-  -S2
-  -S3
-  -S4
-  -S5
-  -S6
-  -HK2
-  -SG1
-  -FR2
-  -HK3
-  -CA1
-  -NL2
-  -US3
-  -HK4
-  -HK5
-  -US4
-  -US5
-  -US6
+  - MN1
+  - US1
+  - HK1
+  - AU1
+  - AU2
+  - DE1
+  - FR1
+  - UK1
+  - UK2
+  - IN1
+  - IN2
+  - IT1
+  - NL1
+  - RU1
+  - PL1
+  - S1
+  - S2
+  - S3
+  - S4
+  - S5
+  - S6
+  - HK2
+  - SG1
+  - FR2
+  - HK3
+  - CA1
+  - NL2
+  - US3
+  - HK4
+  - HK5
+  - US4
+  - US5
+  - US6
 - name: ?? Auto_Selection
   type: url-test
   url: https://captive.v2ex.co/generate_204
