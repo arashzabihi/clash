@@ -75,7 +75,7 @@ proxy-groups:
 - name: ?? Node_Selection
   type: url-test
   url: https://captive.v2ex.co/generate_204
-  interval: 10
+  interval: 300
   proxies:
   - ?? Auto_Selection
   - ?? Load_Balancing
@@ -84,7 +84,7 @@ proxy-groups:
 - name: ?? Manual_Selection
   type: select
   url: https://captive.v2ex.co/generate_204
-  interval: 10
+  interval: 300
   proxies: &id001
   - MN1
   - US1
