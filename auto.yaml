@@ -78,6 +78,13 @@ proxies:
   server: 47.104.237.32
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- name: DE@1
+  server: gallery.freebidekall.ga
+  port: 10023
+  type: trojan
+  password: x4j4IesAPbtHVRXYotmHfcxrxj28ly7wzNDuMzPkORdMa7lb
+  sni: gallery.freebidekall.ga
+  skip-cert-verify: false
 proxy-groups:
 - name: 🔰 Node_Selection
   type: url-test
@@ -131,6 +138,7 @@ proxy-groups:
   - US5
   - US6
   - CN1
+  - DE@1
 - name: ♻️ Auto_Selection
   type: url-test
   url: https://captive.v2ex.co/generate_204
