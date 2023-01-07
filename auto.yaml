@@ -37,6 +37,10 @@ tun:
 experimental:
   interface-name: en0
 proxies:
+- {'name': 'KR@1', 'server': '00000000000000000000000000000000000000000000000000000000000037a.node-for-bigairport.win', 'port': 12356, 'type': 'vmess', 'uuid': '78065c14-fc80-40b5-a46c-0e34efdf82fa', 'alterId': 0, 'cipher': 'auto', 'tls': False, 'skip-cert-verify': False}
+- {'name': 'SG@2', 'server': '00000000000000000000000000000000000000000000000000000000000035a.node-for-bigairport.win', 'port': 12356, 'type': 'vmess', 'uuid': '78065c14-fc80-40b5-a46c-0e34efdf82fa', 'alterId': 0, 'cipher': 'auto', 'tls': False, 'skip-cert-verify': False}
+- {'name': 'HK@1', 'server': '00000000000000000000000000000000000000000000000000000000000032a.node-for-bigairport.win', 'port': 12356, 'type': 'vmess', 'uuid': '78065c14-fc80-40b5-a46c-0e34efdf82fa', 'alterId': 0, 'cipher': 'auto', 'tls': False, 'skip-cert-verify': False}
+- {'name': 'IE@1', 'server': '00000000000000000000000000000000000000000000000000000000000015a.node-for-bigairport.win', 'port': 15092, 'type': 'vmess', 'uuid': '78065c14-fc80-40b5-a46c-0e34efdf82fa', 'alterId': 0, 'cipher': 'auto', 'tls': False, 'skip-cert-verify': False}
 - {'name': 'SG@1' , 'server': '00000000000000000000000000000000000000000000000000000000000035a.node-for-bigairport.win', 'port': 12356, 'type': 'vmess', 'uuid': '1617ff1b-4e85-4a8a-81c3-511b3c2efad8', 'alterId': 0, 'cipher': 'auto', 'tls': False, 'skip-cert-verify': False}
 - {'name': 'FR@1', 'server': '00000000000000000000000000000000000000000000000000000000000014a.node-for-bigairport.win', 'port': 12659, 'type': 'vmess', 'uuid': '1617ff1b-4e85-4a8a-81c3-511b3c2efad8', 'alterId': 0, 'cipher': 'auto', 'tls': False, 'skip-cert-verify': False}
 - name: US@2
@@ -146,6 +150,10 @@ proxy-groups:
   url: https://captive.v2ex.co/generate_204
   interval: 300
   proxies: &id001
+  - KR@1
+  - SG@2
+  - HK@1
+  - IE@1
   - SG@1
   - FR@1
   - US@2
