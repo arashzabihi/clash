@@ -38,6 +38,24 @@ tun:
 experimental:
   interface-name: en0
 proxies:
+- name: AU@1
+  server: au.yangon.club
+  port: 443
+  type: vmess
+  uuid: 76f6ed54-7f61-4407-f49d-dd33d07ebd8f
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+- name: US@1
+  server: 00000000000000000000000000000000000000000000000000000000000040a.node-for-bigairport.win
+  port: 12356
+  type: vmess
+  uuid: 1617ff1b-4e85-4a8a-81c3-511b3c2efad8
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
 - name: CA@1
   server: 149.56.132.41
   port: 80
@@ -118,6 +136,8 @@ proxy-groups:
   url: https://captive.v2ex.co/generate_204
   interval: 300
   proxies: &id001
+  - AU@1
+  - US@1
   - CA@1
   - DE@2
   - MN1
