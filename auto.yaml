@@ -37,6 +37,7 @@ tun:
 experimental:
   interface-name: en0
 proxies:
+- {name: FR@1, 'server': '00000000000000000000000000000000000000000000000000000000000014a.node-for-bigairport.win', 'port': 12659, 'type': 'vmess', 'uuid': '1617ff1b-4e85-4a8a-81c3-511b3c2efad8', 'alterId': 0, 'cipher': 'auto', 'tls': False, 'skip-cert-verify': False}
 - name: US@2
   server: 00000000000000000000000000000000000000000000000000000000000040a.node-for-bigairport.win
   port: 12356
@@ -144,6 +145,7 @@ proxy-groups:
   url: https://captive.v2ex.co/generate_204
   interval: 300
   proxies: &id001
+  - FR@1
   - US@2
   - AU@1
   - US@1
