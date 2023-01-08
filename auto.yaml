@@ -37,6 +37,7 @@ tun:
 experimental:
   interface-name: en0
 proxies:
+- {'name': 'CN@@1', 'server': 'scloud58.jafiyun.world', 'port': 22058, 'type': 'trojan', 'password': 'bdc1f655-f73d-3b04-8a53-4a40cfe6c826', 'sni': 'scloud58.jafiyun.world', 'skip-cert-verify': False}
 - {'name': 'JP@1', 'server': '00000000000000000000000000000000000000000000000000000000000034a.node-for-bigairport.win', 'port': 12356, 'type': 'vmess', 'uuid': '78065c14-fc80-40b5-a46c-0e34efdf82fa', 'alterId': 0, 'cipher': 'auto', 'tls': False, 'skip-cert-verify': False}
 - {'name': 'FR@2', 'server': '00000000000000000000000000000000000000000000000000000000000014a.node-for-bigairport.win', 'port': 12659, 'type': 'vmess', 'uuid': '78065c14-fc80-40b5-a46c-0e34efdf82fa', 'alterId': 0, 'cipher': 'auto', 'tls': False, 'skip-cert-verify': False}
 - {'name': 'US@3', 'server': '00000000000000000000000000000000000000000000000000000000000009a.node-for-bigairport.win', 'port': 80, 'type': 'vmess', 'uuid': '78065c14-fc80-40b5-a46c-0e34efdf82fa', 'alterId': 0, 'cipher': 'auto', 'tls': False, 'skip-cert-verify': False}
@@ -157,6 +158,7 @@ proxy-groups:
   url: https://captive.v2ex.co/generate_204
   interval: 300
   proxies: &id001
+  - CN@@1
   - JP@1
   - FR@2
   - US@3
