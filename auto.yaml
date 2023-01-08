@@ -37,6 +37,13 @@ tun:
 experimental:
   interface-name: en0
 proxies:
+- {'name': 'US@@3', 'server': '00000000000000000000000000000000000000000000000000000000000010a.node-for-bigairport.win', 'port': 443, 'type': 'vmess', 'uuid': '1617ff1b-4e85-4a8a-81c3-511b3c2efad8', 'alterId': 0, 'cipher': 'auto', 'tls': False, 'skip-cert-verify': False}
+- {'name': 'JP@@2', 'server': '00000000000000000000000000000000000000000000000000000000000004a.node-for-bigairport.win', 'port': 443, 'type': 'vmess', 'uuid': '1617ff1b-4e85-4a8a-81c3-511b3c2efad8', 'alterId': 0, 'cipher': 'auto', 'tls': False, 'skip-cert-verify': False}
+- {'name': 'HK@@3', 'server': '00000000000000000000000000000000000000000000000000000000000002a.node-for-bigairport.win', 'port': 443, 'type': 'vmess', 'uuid': '1617ff1b-4e85-4a8a-81c3-511b3c2efad8', 'alterId': 0, 'cipher': 'auto', 'tls': False, 'skip-cert-verify': False, 'network': 'ws', 'ws-opts': {'path': '/', 'headers': {'Host': '00000000000000000000000000000000000000000000000000000000000002a.node-for-bigairport.win'}}}
+- {'name': 'HK@@4', 'server': '00000000000000000000000000000000000000000000000000000000000021a.node-for-bigairport.win', 'port': 52356, 'type': 'vmess', 'uuid': '1617ff1b-4e85-4a8a-81c3-511b3c2efad8', 'alterId': 0, 'cipher': 'auto', 'tls': False, 'skip-cert-verify': False}
+- {'name': 'JP@@3', 'server': '00000000000000000000000000000000000000000000000000000000000023a.node-for-bigairport.win', 'port': 52356, 'type': 'vmess', 'uuid': '1617ff1b-4e85-4a8a-81c3-511b3c2efad8', 'alterId': 0, 'cipher': 'auto', 'tls': False, 'skip-cert-verify': False}
+- {'name': 'JP@@4', 'server': '00000000000000000000000000000000000000000000000000000000000024a.node-for-bigairport.win', 'port': 52356, 'type': 'vmess', 'uuid': '1617ff1b-4e85-4a8a-81c3-511b3c2efad8', 'alterId': 0, 'cipher': 'auto', 'tls': False, 'skip-cert-verify': False}
+- {'name': 'US@@4', 'server': '00000000000000000000000000000000000000000000000000000000000029a.node-for-bigairport.win', 'port': 52356, 'type': 'vmess', 'uuid': '1617ff1b-4e85-4a8a-81c3-511b3c2efad8', 'alterId': 0, 'cipher': 'auto', 'tls': False, 'skip-cert-verify': False}
 - {'name': 'US@@2', 'server': '00000000000000000000000000000000000000000000000000000000000009a.node-for-bigairport.win', 'port': 80, 'type': 'vmess', 'uuid': '78065c14-fc80-40b5-a46c-0e34efdf82fa', 'alterId': 0, 'cipher': 'auto', 'tls': False, 'skip-cert-verify': False}
 - {'name': 'CN@@2', 'server': 'jp02.jafiyun.world', 'port': 21125, 'type': 'vmess', 'uuid': '6f130a89-04da-30de-97e7-7568ffaca849', 'alterId': 2, 'cipher': 'auto', 'tls': False, 'skip-cert-verify': False}
 - {'name': 'CN@@3', 'server': 'jp02.jafiyun.world', 'port': 21125, 'type': 'vmess', 'uuid': 'bdc1f655-f73d-3b04-8a53-4a40cfe6c826', 'alterId': 2, 'cipher': 'auto', 'tls': False, 'skip-cert-verify': False}
@@ -166,6 +173,13 @@ proxy-groups:
   url: https://captive.v2ex.co/generate_204
   interval: 300
   proxies: &id001
+  - US@@3
+  - JP@@2
+  - HK@@3
+  - HK@@4
+  - JP@@3
+  - JP@@4
+  - US@@4
   - US@@2
   - CN@@2
   - CN@@3
