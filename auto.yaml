@@ -160,7 +160,7 @@ proxy-groups:
 - name: 🔰 Node_Selection
   type: url-test
   url: https://captive.v2ex.co/generate_204
-  interval: 100
+  interval: 400
   proxies:
    - ♻️ Auto_Selection
    - ✍  Manual_Selection
@@ -173,7 +173,7 @@ proxy-groups:
 - name: ✍  Manual_Selection
   type: select
   url: https://captive.v2ex.co/generate_204
-  interval: 100
+  interval: 400
   proxies: &id001
   - KR@@1
   - US@@5
@@ -249,51 +249,51 @@ proxy-groups:
 - name: ♻️ Auto_Selection
   type: url-test
   url: https://captive.v2ex.co/generate_204
-  interval: 100
+  interval: 400
   proxies: *id001
 - name: ⭕ Load_Balancing
   type: load-balance
   url: https://captive.v2ex.co/generate_204
-  interval: 100
+  interval: 400
   strategy: round-robin
   proxies: *id001
 - name: ❗ failover
   type: fallback
   url: https://captive.v2ex.co/generate_204
-  interval: 100
+  interval: 400
   proxies: *id001
 - name: 📬 Telegram_Messanger
   type: url-test
   url: https://captive.v2ex.co/generate_204
-  interval: 100
+  interval: 400
   proxies: *id001
 - name: 🔘 INSTAGRAM
   type: url-test
   url: https://captive.v2ex.co/generate_204
-  interval: 100
+  interval: 400
   proxies: *id001
 - name: 🎬 YouTube
   type: url-test
   url: https://captive.v2ex.co/generate_204
-  interval: 100
+  interval: 400
   proxies: *id001
 - name: 🌍 Global_Interception
   type: url-test
   url: https://captive.v2ex.co/generate_204
-  interval: 100
+  interval: 400
   proxies: *id001
   
 - name: Global_Interception
   type: url-test
   url: https://captive.v2ex.co/generate_204
-  interval: 100
+  interval: 400
   proxies:
   - REJECT
   - DIRECT
 - name: 🎭 Slip_Throw_Net
   type: url-test
   url: https://captive.v2ex.co/generate_204
-  interval: 100
+  interval: 400
   proxies:
    - 🔰 Node_Selection
 rules:
