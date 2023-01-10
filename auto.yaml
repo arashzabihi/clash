@@ -162,7 +162,7 @@ proxies:
   - {name: MN1, server: 103.168.56.77, port: 443, type: trojan, password: 4f2c305b-9a03-4493-b3e4-2dff2f1af8c9, sni: wx.qq.com, skip-cert-verify: true, udp: true}
   - {type: trojan , name: HK4,server: 20.205.37.136,port: 443,password: aef2ca33-b162-409f-8f16-4c736c338412,udp: true,skip-cert-verify: true,sni: 20.205.37.136}
   - {type: ss , name: US2, server: 38.91.102.30,port: 5000,cipher: aes-256-gcm,password: Y6R9pAtvxxzmGC}
-  - {type: trojan , name: US3,server: 135.148.148.4,port: 80,password: 76fcac80-9943-4eab-8717-0ebebea94b70,udp: true,skip-cert-verify: true,sni: us3.trojanvh.xyz}
+  - {name: SG2, type: trojan  ,server: 194.233.151.107,port: 443,password: c8174260-818e-11ed-815e-1239d0255272,udp :true,skip-cert-verify: true,sni: soft98.ir}
   - {name: ðŸ‡ºðŸ‡¸ United States 01 TG:@nodpai, server: us-a.tencent.cfd, port: 65528, type: vmess, uuid: 7261d7eb-e4ac-4c13-84d7-40a575ee6c61, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us-a.tencent.cfd}}, udp: true}
   - {name: ðŸ‡ºðŸ‡¸ United States 02 TG:@nodpai, server: us-atl.tencent.cfd, port: 65529, type: vmess, uuid: 7261d7eb-e4ac-4c13-84d7-40a575ee6c61, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us-atl.tencent.cfd}}, udp: true}
   - {name: ðŸ‡ºðŸ‡¸ United States 03 TG:@nodpai, server: divi9929.comax.tk, port: 17001, type: vmess, uuid: c76aa5ac-2697-40a1-a3ef-b492b48a67fb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /luoshanji2, headers: {Host: divi9929.comax.tk}}, udp: true}
@@ -227,7 +227,7 @@ proxies:
   - {name: ðŸ‡»ðŸ‡³ Viet Nam 04 TG:@nodpai, server: 103.82.24.79, port: 80, type: vmess, uuid: ef919c67-6638-4416-91af-9a13ffe5b9ca, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /tandung288.click, headers: {Host: dl.kgvn.garenanow.com}}, udp: true}
   - {name: ðŸ‡»ðŸ‡³ Viet Nam 05 TG:@nodpai, server: 103.166.183.226, port: 80, type: vmess, uuid: ef919c67-6638-4416-91af-9a13ffe5b9ca, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /tandung288.click, headers: {Host: dl.kgvn.garenanow.com}}, udp: true}
   - {name: ðŸ‡»ðŸ‡³ Viet Nam 06 TG:@nodpai, server: 103.56.160.184, port: 80, type: vmess, uuid: ef919c67-6638-4416-91af-9a13ffe5b9ca, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /tandung288.click, headers: {Host: dl.kgvn.garenanow.com}}, udp: true}
-  - {name: ðŸ‡»ðŸ‡³ Viet Nam 07 TG:@nodpai, server: 103.75.186.153, port: 80, type: vmess, uuid: ef919c67-6638-4416-91af-9a13ffe5b9ca, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /tandung288.click, headers: {Host: dl.kgvn.garenanow.com}}, udp: true}- {name: SG2, type: trojan  ,server: 194.233.151.107,port: 443,password: c8174260-818e-11ed-815e-1239d0255272,udp :true,skip-cert-verify: true,sni: soft98.ir}
+  - {name: ðŸ‡»ðŸ‡³ Viet Nam 07 TG:@nodpai, server: 103.75.186.153, port: 80, type: vmess, uuid: ef919c67-6638-4416-91af-9a13ffe5b9ca, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /tandung288.click, headers: {Host: dl.kgvn.garenanow.com}}, udp: true}
 proxy-groups:
 - name: 🔰 Node_Selection
   type: url-test
