@@ -148,6 +148,12 @@ dns:
   #   'www.baidu.com': '114.114.114.114'
   #   '+.internal.crop.com': '10.0.0.1'
 proxies:
+  - name: JP
+    type: ss
+    server: 13.53.176.16
+    port: 26906
+    cipher: chacha20-ietf-poly1305
+    password: YH1REXVmrMFQvMRIWIiSb8
   - {type: trojan , name: NL1,server: 161.35.247.35,port: 443,password: 3628ca8d-6371-45df-879c-2d3e5d110b51,udp: true,skip-cert-verify: true,sni: ams.iqmtp.live}
   - {name: US1, server: us3.baf1.sbs, port: 11227, type: vmess, uuid: 9e5b27ad-b0f2-4173-8240-93208100de7c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: HK1, server: hk4.jstcx.com, port: 10110, type: vmess, uuid: 9e5b27ad-b0f2-4173-8240-93208100de7c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
@@ -247,6 +253,7 @@ proxy-groups:
   url: https://captive.v2ex.co/generate_204
   interval: 400
   proxies: &id001
+  - JP
   - NL1
   - US1
   - HK1
