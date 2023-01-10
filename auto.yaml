@@ -154,6 +154,17 @@ proxies:
     port: 26906
     cipher: chacha20-ietf-poly1305
     password: YH1REXVmrMFQvMRIWIiSb8
+  - {'name': 'US01', 'server': '00000000000000000000000000000000000000000000000000000000000009a.node-for-bigairport.win', 'port': 80, 'type': 'vmess', 'uuid': '1617ff1b-4e85-4a8a-81c3-511b3c2efad8', 'alterId': 0, 'cipher': 'auto', 'tls': False, 'skip-cert-verify': False}
+  - {'name': 'US02', 'server': '00000000000000000000000000000000000000000000000000000000000040a.node-for-bigairport.win', 'port': 12356, 'type': 'vmess', 'uuid': '1617ff1b-4e85-4a8a-81c3-511b3c2efad8', 'alterId': 0, 'cipher': 'auto', 'tls': False, 'skip-cert-verify': False}
+  - {'name': 'US03', 'server': '00000000000000000000000000000000000000000000000000000000000039a.node-for-bigairport.win', 'port': 12356, 'type': 'vmess', 'uuid': '78065c14-fc80-40b5-a46c-0e34efdf82fa', 'alterId': 0, 'cipher': 'auto', 'tls': False, 'skip-cert-verify': False}
+  - {'name': 'US04', 'server': '00000000000000000000000000000000000000000000000000000000000040a.node-for-bigairport.win', 'port': 12356, 'type': 'vmess', 'uuid': '78065c14-fc80-40b5-a46c-0e34efdf82fa', 'alterId': 0, 'cipher': 'auto', 'tls': False, 'skip-cert-verify': False}
+  - {'name': 'US05', 'server': '00000000000000000000000000000000000000000000000000000000000009a.node-for-bigairport.win', 'port': 80, 'type': 'vmess', 'uuid': '78065c14-fc80-40b5-a46c-0e34efdf82fa', 'alterId': 0, 'cipher': 'auto', 'tls': False, 'skip-cert-verify': False}
+  - {'name': 'US06', 'server': '00000000000000000000000000000000000000000000000000000000000029a.node-for-bigairport.win', 'port': 52356, 'type': 'vmess', 'uuid': '1617ff1b-4e85-4a8a-81c3-511b3c2efad8', 'alterId': 0, 'cipher': 'auto', 'tls': False, 'skip-cert-verify': False}
+  - {'name': 'US07', 'server': '00000000000000000000000000000000000000000000000000000000000029a.node-for-bigairport.win', 'port': 52356, 'type': 'vmess', 'uuid': '78065c14-fc80-40b5-a46c-0e34efdf82fa', 'alterId': 0, 'cipher': 'auto', 'tls': False, 'skip-cert-verify': False}
+  - {'name': 'US08', 'server': '00000000000000000000000000000000000000000000000000000000000012a.node-for-bigairport.win', 'port': 10392, 'type': 'vmess', 'uuid': '78065c14-fc80-40b5-a46c-0e34efdf82fa', 'alterId': 0, 'cipher': 'auto', 'tls': False, 'skip-cert-verify': False}
+  - {'name': 'HK01', 'server': '00000000000000000000000000000000000000000000000000000000000032a.node-for-bigairport.win', 'port': 12356, 'type': 'vmess', 'uuid': '78065c14-fc80-40b5-a46c-0e34efdf82fa', 'alterId': 0, 'cipher': 'auto', 'tls': False, 'skip-cert-verify': False}
+  - {'name': 'SG01', 'server': '00000000000000000000000000000000000000000000000000000000000005a.node-for-bigairport.win', 'port': 80, 'type': 'vmess', 'uuid': '1617ff1b-4e85-4a8a-81c3-511b3c2efad8', 'alterId': 0, 'cipher': 'auto', 'tls': False, 'skip-cert-verify': False}
+  - {'name': 'JP01', 'server': '00000000000000000000000000000000000000000000000000000000000033a.node-for-bigairport.win', 'port': 12356, 'type': 'vmess', 'uuid': '78065c14-fc80-40b5-a46c-0e34efdf82fa', 'alterId': 0, 'cipher': 'auto', 'tls': False, 'skip-cert-verify': False}
   - {type: trojan , name: NL1,server: 161.35.247.35,port: 443,password: 3628ca8d-6371-45df-879c-2d3e5d110b51,udp: true,skip-cert-verify: true,sni: ams.iqmtp.live}
   - {name: US1, server: us3.baf1.sbs, port: 11227, type: vmess, uuid: 9e5b27ad-b0f2-4173-8240-93208100de7c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: HK1, server: hk4.jstcx.com, port: 10110, type: vmess, uuid: 9e5b27ad-b0f2-4173-8240-93208100de7c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
@@ -254,6 +265,17 @@ proxy-groups:
   interval: 400
   proxies: &id001
   - JP
+  - US01
+  - US02
+  - US03
+  - US04
+  - US05
+  - US06
+  - US07
+  - US08
+  - HK01
+  - SG01
+  - JP01
   - NL1
   - US1
   - HK1
