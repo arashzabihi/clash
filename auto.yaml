@@ -148,7 +148,7 @@ dns:
   #   'www.baidu.com': '114.114.114.114'
   #   '+.internal.crop.com': '10.0.0.1'
 proxies:
-  - {'name': '🇰🇷KR-13.209.87.243-338', 'server': '00000000000000000000000000000000000000000000000000000000000038a.node-for-bigairport.win', 'port': 12356, 'type': 'vmess', 'uuid': '78065c14-fc80-40b5-a46c-0e34efdf82fa', 'alterId': 0, 'cipher': 'auto', 'tls': False, 'skip-cert-verify': False}
+  - {'name': 'KR', 'server': '00000000000000000000000000000000000000000000000000000000000038a.node-for-bigairport.win', 'port': 12356, 'type': 'vmess', 'uuid': '78065c14-fc80-40b5-a46c-0e34efdf82fa', 'alterId': 0, 'cipher': 'auto', 'tls': False, 'skip-cert-verify': False}
   - {'name': '334', 'server': '00000000000000000000000000000000000000000000000000000000000034a.node-for-bigairport.win', 'port': 12356, 'type': 'vmess', 'uuid': '78065c14-fc80-40b5-a46c-0e34efdf82fa', 'alterId': 0, 'cipher': 'auto', 'tls': False, 'skip-cert-verify': False}
   - name: FR
     server: 152.228.206.47
