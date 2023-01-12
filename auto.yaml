@@ -147,7 +147,7 @@ dns:
   # nameserver-policy:
   #   'www.baidu.com': '114.114.114.114'
   #   '+.internal.crop.com': '10.0.0.1'
-proxies:
+  proxies:
   - name: FR
     server: 152.228.206.47
     port: 43922
